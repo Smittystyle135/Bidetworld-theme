@@ -217,9 +217,21 @@ Fill in as verified. Do not guess.
 
 ## 9. Current Focus
 
-**Last session (2026-09-06):** Created this CLAUDE.md knowledge base. Repo had only a README.
+**Last session (2026-09-06):** Created this CLAUDE.md knowledge base, then audited
+bidetworld.com and found the domain is serving a GoDaddy parking page instead of the
+Shopify store. See §12. **This is a revenue outage and comes before everything else.**
 
-**Next task:** Get the live theme into this repo.
+**Next task (URGENT):** Reconnect bidetworld.com to the Shopify store. Checklist:
+1. Confirm the domain has not expired (registrar dashboard). Renew if it has.
+2. In Shopify admin: Settings > Domains. Confirm bidetworld.com is listed and set as
+   primary. If missing, add it.
+3. At the registrar: A record for `@` must be `23.227.38.65`, CNAME for `www` must be
+   `shops.myshopify.com`. Remove any GoDaddy parking / forwarding records.
+4. Wait for DNS, then re-run the checks in §12 (curl root, check for Shopify headers).
+5. Pause the Zapier/Buffer social posts that link to the site until it is back up,
+   or leave them if the fix is same-day.
+
+**Then:** Get the live theme into this repo.
 
 Step-by-step for Jeff:
 1. On your computer, open a terminal in the `Bidetworld-theme` folder.
@@ -257,6 +269,20 @@ Why we chose what we chose, so we do not re-argue it.
 Add a dated entry every time something surprises us, breaks, or turns out to work
 differently than expected. Newest first.
 
+- **2026-09-06: bidetworld.com is down, serving a GoDaddy parking page.** Evidence:
+  root URL returns a 114-byte HTML page that JS-redirects to `/lander`; `/lander` is
+  the GoDaddy parking app (`img1.wsimg.com/parking-lander`, `_trfd ap:"parking"`);
+  `sitemap.xml` lists only `/lander`; every Shopify path (`/products.json`,
+  `/collections`, `/cart`, `/blogs/news`) returns the same redirect; DNS for both
+  `bidetworld.com` and `www` resolves to `13.248.213.45` and `76.223.67.189`, which are
+  GoDaddy parking IPs, not Shopify's `23.227.38.65`. Google still indexes the site as
+  "Bidet World - Bidets & Toilet Lifts", so the outage is recent. Every automated
+  blog and social post is currently sending traffic to a parking page.
+  `bidetworld.myshopify.com` returns 404, so the store's myshopify handle is something
+  else. Jeff needs to supply it.
+- **2026-09-06:** This remote environment's network policy blocks `www.bidetworld.com`,
+  `archive.org`, RDAP, and DNS-over-HTTPS. Headless Chromium also cannot reach the
+  proxy without extra config. Use `curl` and `getent hosts` for site checks here.
 - **2026-09-06:** Repo was created with only a README. The live theme was never
   committed. Nothing about the theme can be assumed until it is pulled.
 
@@ -274,3 +300,7 @@ Things that will bite us if forgotten.
 - Liquid `{% include %}` is deprecated. Use `{% render %}`.
 - A JSON template with invalid JSON takes down that page type entirely. Validate
   with `shopify theme check` before pushing.
+- **Quick health check for the live site** (run before any theme work):
+  `curl -sI -A "Mozilla/5.0" https://bidetworld.com/ | grep -i shopify` should print
+  Shopify headers. If it prints nothing and the body is a `/lander` redirect, the
+  domain has fallen back to parking again.
