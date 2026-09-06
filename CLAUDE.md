@@ -63,13 +63,14 @@ methodical. These rules are not optional:
 | Store address | `b5c390-92.myshopify.com` (admin: `admin.shopify.com/store/b5c390-92`) |
 | Build step | None expected. Shopify themes ship raw Liquid, CSS, and JS. |
 
-### Current state (2026-09-06)
+### Current state (2026-09-06, evening)
 
-The repo contains only `README.md` and this file. **The theme code has not been
-pushed yet.** Nothing about the live theme's sections, settings, or styling has been
-verified. Do not assume anything about the theme until the code is in the repo.
+The live theme is in the repo (commit `2f07b63`, 364 files, pulled from Shopify theme
+ID `138285350996`, named "Updated copy of 3.1.0 - Current Store"). Also in the repo:
+`data/products.json` and `data/collections.json` (catalog snapshot) and `.gitignore`.
 
-**First real task:** get the live theme into git (see §9).
+Shopify also holds five unpublished backup themes: "Free Version", "1st Paid Version",
+"2nd Paid Version", "3rd Paid Version", and "3.1.0 - Current Store". Leave them alone.
 
 ---
 
@@ -88,6 +89,8 @@ locales/
   en.default.json        All customer-facing strings. Never hardcode text in Liquid
   en.default.schema.json Labels for the Theme Editor
 sections/        Reusable page blocks with a {% schema %} tag. Merchant can add/reorder
+  *-group.json   Section groups: header-group, footer-group, overlay-group render on every page
+blocks/          Theme blocks (Concept ships 20: heading, image, button, accordion, map, etc.)
 snippets/        Small Liquid partials, included with {% render 'name' %}
 templates/
   *.json          Online Store 2.0 templates: list of sections + their settings
@@ -152,6 +155,7 @@ shopify theme push --unpublished --theme "Dev - <short description>"
   Example: `sections/product: add trust badges block under add-to-cart`.
 - Commit `CLAUDE.md` updates in the same push as the code they describe.
 - Do not commit: `node_modules/`, `.shopify/`, `*.log`, OS junk, API keys, `.env`.
+  `.gitignore` covers these already.
 
 ### Definition of done for any change
 
@@ -165,8 +169,10 @@ shopify theme push --unpublished --theme "Dev - <short description>"
 
 ## 6. Frontend Design Standards (BidetWorld)
 
-Brand palette, fonts, and spacing scale are **unknown until the theme is pulled**.
-Record them in §8 the moment they are confirmed. Until then, these rules stand:
+Brand palette and fonts are confirmed in §8: near-black text on white, Inter for
+everything, fully rounded black buttons, peach `#ffddbf` highlight, mint `#a8e8e2`
+shadow, amber stars. The headless clone must reproduce this look exactly before it
+improves on it. These rules also stand:
 
 - **Conversion first.** Every product page change must protect: clear price, visible
   add-to-cart above the fold on mobile, trust signals (reviews, shipping, returns,
@@ -209,14 +215,68 @@ Fill in as verified. Do not guess.
 
 | Fact | Value | Verified on |
 |---|---|---|
-| Base theme (Dawn? other?) | unknown | |
-| Theme version | unknown | |
-| Primary brand color | unknown | |
-| Heading font / body font | unknown | |
-| Installed apps injecting code | unknown | |
-| Klaviyo integration method | unknown | |
-| Review app | unknown | |
-| Custom sections already built | unknown | |
+| Base theme | **Concept by RoarTheme** (paid). Docs: roartheme.co/blogs/concept. Support: haloroar.ticksy.com | 2026-09-06 |
+| Theme version | 5.1.0 (Shopify calls the live copy "Updated copy of 3.1.0 - Current Store", ID 138285350996) | 2026-09-06 |
+| File counts | 101 sections, 96 snippets, 20 blocks, 62 templates, 43 assets, 38 locales | 2026-09-06 |
+| Text color | `#171717` (near-black) | 2026-09-06 |
+| Background | `#ffffff`, image background `#fafafa` | 2026-09-06 |
+| Accent / highlight | `#ffddbf` (peach highlight), shadow `#a8e8e2` (mint) | 2026-09-06 |
+| Buttons | black `#171717` bg, white text, fully rounded ("round"), 2px border | 2026-09-06 |
+| Sale / error red | `#e11d48` sale, `#be123c` error text | 2026-09-06 |
+| Rating stars | `#f59e0b` (amber) | 2026-09-06 |
+| Focus ring | `#0b61cd` | 2026-09-06 |
+| Heading font | Inter Bold (`inter_n7`), line-height 1, letter-spacing -30 | 2026-09-06 |
+| Body font | Inter Regular (`inter_n4`), 16px, line-height 1.2 | 2026-09-06 |
+| Nav / button / product fonts | body font, weight 500, 16px | 2026-09-06 |
+| Page max width | 1900px | 2026-09-06 |
+| Logo | `Remove_background_project_1.png`, 110px desktop / 100px mobile | 2026-09-06 |
+| CSS / JS entry | `assets/theme.css` (340KB), `assets/theme.js` (246KB), `assets/vendor.js` (90KB), all built by RoarTheme, no source maps | 2026-09-06 |
+| Review app | **Judge.me** via app embed (`judgeme_core`, enabled). No review markup in theme files. | 2026-09-06 |
+| Quiz app | **Octane AI Advanced Quiz Maker**, app embed enabled + `apps` section in footer group | 2026-09-06 |
+| Klaviyo | **Not found anywhere in theme code.** Either installed as an app with no theme embed, or not installed. Verify in Shopify admin before building signup forms. | 2026-09-06 |
+| Analytics pixels | None hardcoded (no gtag, fbq, GTM in theme). Any tracking runs through Shopify's pixel manager or apps. | 2026-09-06 |
+| Custom sections | None found. All 101 sections are stock Concept. Customization lives in template JSON and settings. | 2026-09-06 |
+| Catalog size | 33 products, 108 variants, 447 images, 25 collections | 2026-09-06 |
+| Price range | $3 accessories to $2,999 Dignity Lifts toilet lift | 2026-09-06 |
+| Vendors | Bidet World (14), Hygiene For Health (10), Dignity Lifts (6), TUSHY (3) | 2026-09-06 |
+| Main categories | Bidet seats, bidet attachments, handheld sprayers, travel bidets, bidet toilets, assisted toilet lifts, accessories | 2026-09-06 |
+| Raw catalog snapshot | `data/products.json`, `data/collections.json` (public storefront JSON, refresh with the curl in §5) | 2026-09-06 |
+
+### Page layouts as of 2026-09-06 (section order, top to bottom)
+
+**Every page, from `sections/header-group.json`:**
+slideshow-hero (homepage only) → rich-text "Not sure what bidet? Take the quiz!" (ALL
+pages, no homepage-only setting) → announcement-bar (3 messages) → header (2 mega menus).
+Disabled: an Octane quiz `apps` section.
+
+**Every page, from `sections/footer-group.json`:**
+multicolumn-with-icons (4 columns) → apps (Octane quiz) → footer (link list + brand
+info) → footer-copyright.
+
+**Homepage `templates/index.json`:**
+collection-list "Product Collections" (7) → featured-collections "Best Sellers" (6
+collections) → video-with-text-overlay → rich-text → scrolling-text (6 logos) →
+blog-posts-collage "Bidet World Blogs". Disabled: welcome rich-text, featured-product.
+
+**Product `templates/product.json`:**
+main-product (breadcrumb, text, title, price, description, 2 text, countdown,
+variant_picker, inventory, buy_buttons, pickup_availability) → help-drawer "Need help?"
+→ product-details (4 collapsible tabs) → scrolling-text → product-recommendations
+"You may also like". Disabled: faq, recently-viewed.
+
+**Collection `templates/collection.json`:**
+main-collection-banner → main-collection (subcollections block) → rich-text →
+recently-viewed. Custom collection templates exist for assisted bidets, bidet toilets,
+and Dignity Lifts.
+
+**Article `templates/article.json`:**
+main-article-banner → main-article-overlay (share, next/prev, comments) → blog-posts
+"Latest Stories".
+
+**Custom page templates (28):** about, FAQ, contact (3 map variants), bidet quiz,
+documentation, troubleshooting, video tutorials, brands, bundle, reviews, sales,
+services, social media, store policies, returns, support, who we are, story, portfolio.
+Many are likely unused. Check which pages actually use them before deleting any.
 | Catalog size | 33 products, 108 variants, 447 images, 25 collections | 2026-09-06 |
 | Price range | $3 accessories to $2,999 Dignity Lifts toilet lift | 2026-09-06 |
 | Vendors | Bidet World (14), Hygiene For Health (10), Dignity Lifts (6), TUSHY (3) | 2026-09-06 |
@@ -233,12 +293,20 @@ site is live for him. See §12. Jeff's new goal: **clone the Shopify store into 
 headless storefront** (Next.js on Vercel, Shopify Storefront API for commerce, Supabase
 for content and extras, GitHub for code).
 
-**Next task:** Get the store data into this repo so cloning can start. Jeff needs to:
-1. Run `shopify theme pull` on his computer and push the theme to this repo.
-2. Send the store's `*.myshopify.com` address.
-3. Create a read-only Storefront API token and store it as a Vercel env var.
-4. Export products CSV into `data/`.
-5. Create Vercel and Supabase projects and connect Vercel to this repo.
+**Done 2026-09-06:** theme pulled and pushed, store address recorded, catalog snapshot
+in `data/`, §8 fully filled in, domain renewed at GoDaddy.
+
+**Next task:** set up the services for the headless clone. Jeff needs to:
+1. Create a read-only Storefront API token (Shopify admin > Settings > Apps and sales
+   channels > Develop apps > Create app "Headless storefront" > Storefront API scopes
+   for products, collections, content, checkout > Install > copy token).
+2. Create a Vercel account, import this GitHub repo, add env var
+   `SHOPIFY_STOREFRONT_TOKEN` and `SHOPIFY_STORE_DOMAIN=b5c390-92.myshopify.com`.
+3. Create a Supabase project, add its URL and anon key as Vercel env vars.
+4. Confirm bidetworld.com DNS points at Shopify again (see checklist below).
+
+**Then Claude builds:** a Next.js app in a `storefront/` folder of this repo that
+reproduces the Concept look from §8 using the Storefront API, deployed by Vercel.
 
 **Domain (Jeff is renewing now):** after renewal, confirm DNS still points at Shopify.
 Checklist:
@@ -251,17 +319,8 @@ Checklist:
 5. Pause the Zapier/Buffer social posts that link to the site until it is back up,
    or leave them if the fix is same-day.
 
-**Then:** Get the live theme into this repo.
-
-Step-by-step for Jeff:
-1. On your computer, open a terminal in the `Bidetworld-theme` folder.
-2. Run `npm install -g @shopify/cli` (one time only).
-3. Run `shopify theme pull --store b5c390-92.myshopify.com` and log in when asked.
-4. Run `git add -A && git commit -m "theme: initial pull of live theme" && git push`.
-5. Tell Claude "theme is pushed" and we fill in §8 together.
-
 **After that:** audit the product page and homepage for conversion and SEO wins,
-ranked by revenue impact.
+ranked by revenue impact, and carry the winners into the clone.
 
 ---
 
@@ -281,6 +340,8 @@ Why we chose what we chose, so we do not re-argue it.
 |---|---|---|
 | 2026-09-06 | Keep this repo as a plain Shopify theme with no build tooling | Shopify Basic plan, no dev team, simplest thing that ships. Revisit only if a real need appears. |
 | 2026-09-06 | Push to unpublished themes only, never directly to live | Protects revenue. Jeff publishes from the Shopify admin after review. |
+| 2026-09-06 | Headless clone keeps Shopify as the commerce backend (Storefront API), Next.js on Vercel as the frontend, Supabase for content and extras | Rebuilding checkout, payments, and tax is months of work and legal risk for no extra revenue. |
+| 2026-09-06 | Clone lives in a `storefront/` folder of this same repo | One repo, one CLAUDE.md, one place to look. Vercel can deploy a subfolder. |
 
 ---
 
@@ -302,6 +363,13 @@ differently than expected. Newest first.
   redirects to bidetworld.com (the primary domain), but `/products.json` and
   `/collections.json` on the myshopify address answer directly, so product data can be
   pulled from this environment even while the domain is broken.
+- **2026-09-06: Theme is Concept 5.1.0 by RoarTheme, a paid theme with compiled
+  assets.** `theme.css` and `theme.js` are built files with no source, so styling
+  changes go through settings and section JSON, not by editing those bundles. The
+  theme JSON files start with a `/* ... */` comment block, so strip it before parsing
+  with a JSON library.
+- **2026-09-06: Klaviyo is not in the theme code at all** despite being in the
+  automation stack. Do not assume signup forms exist. Verify in Shopify admin.
 - **2026-09-06: Root cause confirmed by Jeff: the bidetworld.com domain expired at
   GoDaddy.** GoDaddy parked it, which is why the world saw the parking page while the
   Shopify store itself stayed live. Jeff is renewing. **Prevention:** turn on
@@ -335,6 +403,10 @@ Things that will bite us if forgotten.
   with `shopify theme check` before pushing.
 - **bidetworld.com is registered at GoDaddy (not Namecheap) and expired once
   (Sept 2026).** Auto-renew must be on. Renewal date: TODO, Jeff to confirm.
+- **The "Take the quiz!" rich-text banner in `sections/header-group.json` shows on
+  every page** because rich-text has no homepage-only setting. Only slideshow-hero
+  has `only_homepage`. Moving or removing it changes every page.
+- **Theme JSON files carry a leading `/* */` comment.** Strip it before `json.load`.
 - **Jeff's PC: Windows PowerShell blocks npm and shopify by default** ("running
   scripts is disabled on this system"). One-time fix, run in PowerShell:
   `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` and answer Y.
