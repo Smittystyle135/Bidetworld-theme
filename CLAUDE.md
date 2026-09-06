@@ -217,11 +217,20 @@ Fill in as verified. Do not guess.
 
 ## 9. Current Focus
 
-**Last session (2026-09-06):** Created this CLAUDE.md knowledge base, then audited
-bidetworld.com and found the domain is serving a GoDaddy parking page instead of the
-Shopify store. See §12. **This is a revenue outage and comes before everything else.**
+**Last session (2026-09-06):** Created this CLAUDE.md knowledge base. Audit of
+bidetworld.com from this environment showed a GoDaddy parking page, but Jeff says the
+site is live for him. See §12. Jeff's new goal: **clone the Shopify store into a custom
+headless storefront** (Next.js on Vercel, Shopify Storefront API for commerce, Supabase
+for content and extras, GitHub for code).
 
-**Next task (URGENT):** Reconnect bidetworld.com to the Shopify store. Checklist:
+**Next task:** Get the store data into this repo so cloning can start. Jeff needs to:
+1. Run `shopify theme pull` on his computer and push the theme to this repo.
+2. Send the store's `*.myshopify.com` address.
+3. Create a read-only Storefront API token and store it as a Vercel env var.
+4. Export products CSV into `data/`.
+5. Create Vercel and Supabase projects and connect Vercel to this repo.
+
+**If the domain really is misrouted**, reconnect bidetworld.com to Shopify. Checklist:
 1. Confirm the domain has not expired (registrar dashboard). Renew if it has.
 2. In Shopify admin: Settings > Domains. Confirm bidetworld.com is listed and set as
    primary. If missing, add it.
@@ -280,9 +289,19 @@ differently than expected. Newest first.
   blog and social post is currently sending traffic to a parking page.
   `bidetworld.myshopify.com` returns 404, so the store's myshopify handle is something
   else. Jeff needs to supply it.
-- **2026-09-06:** This remote environment's network policy blocks `www.bidetworld.com`,
-  `archive.org`, RDAP, and DNS-over-HTTPS. Headless Chromium also cannot reach the
-  proxy without extra config. Use `curl` and `getent hosts` for site checks here.
+- **2026-09-06: Jeff reports bidetworld.com is live for him.** Domain was bought at
+  GoDaddy. From this environment it still resolves to GoDaddy parking IPs. Unresolved
+  whether that is a real DNS problem (mixed A records, partial propagation) or an
+  artifact of this environment's resolver. Do not call it an outage again until Jeff
+  confirms with an outside DNS check (dnschecker.org) or a phone on cellular data.
+- **2026-09-06: This environment cannot bypass its proxy.** Every outbound connection
+  is transparently intercepted by an egress gateway that resolves hostnames itself
+  (`CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true`). `curl --noproxy` and `--resolve` look like
+  they work but do not: the TLS cert issuer is "Anthropic Egress Gateway". A "direct to
+  Shopify IP" test from here proves nothing. The policy also blocks
+  `www.bidetworld.com`, `archive.org`, RDAP, and DNS-over-HTTPS. Headless Chromium
+  needs proxy config to reach anything. Use `curl` for site checks and treat DNS
+  results from here as one vantage point, not truth.
 - **2026-09-06:** Repo was created with only a README. The live theme was never
   committed. Nothing about the theme can be assumed until it is pulled.
 
