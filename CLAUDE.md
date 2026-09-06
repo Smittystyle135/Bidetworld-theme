@@ -134,6 +134,10 @@ shopify theme pull --store b5c390-92.myshopify.com
 # Local preview with hot reload (does not touch the live theme)
 shopify theme dev --store b5c390-92.myshopify.com
 
+# Refresh the catalog snapshot in data/ (public endpoints, no token needed)
+curl -sS "https://b5c390-92.myshopify.com/products.json?limit=250" -o data/products.json
+curl -sS "https://b5c390-92.myshopify.com/collections.json?limit=250" -o data/collections.json
+
 # Lint Liquid, JSON, and theme conventions
 shopify theme check
 
@@ -213,6 +217,11 @@ Fill in as verified. Do not guess.
 | Klaviyo integration method | unknown | |
 | Review app | unknown | |
 | Custom sections already built | unknown | |
+| Catalog size | 33 products, 108 variants, 447 images, 25 collections | 2026-09-06 |
+| Price range | $3 accessories to $2,999 Dignity Lifts toilet lift | 2026-09-06 |
+| Vendors | Bidet World (14), Hygiene For Health (10), Dignity Lifts (6), TUSHY (3) | 2026-09-06 |
+| Main categories | Bidet seats, bidet attachments, handheld sprayers, travel bidets, bidet toilets, assisted toilet lifts, accessories | 2026-09-06 |
+| Raw catalog snapshot | ,  (public storefront JSON, refresh with the curl in §5) | 2026-09-06 |
 
 ---
 

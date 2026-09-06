@@ -1,0 +1,381 @@
+{
+ "pulled": "2026-09-06",
+ "source": "b5c390-92.myshopify.com/collections.json",
+ "collections": [
+  {
+   "id": 281145802836,
+   "title": "Accessories",
+   "handle": "accessories",
+   "description": "",
+   "published_at": "2024-12-20T01:32:00-05:00",
+   "updated_at": "2026-08-28T07:11:15-04:00",
+   "image": {
+    "id": 1607539163220,
+    "created_at": "2024-12-20T01:36:49-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Sc6131141aea84721a9eaac25ac6fd4906.webp?v=1740877668",
+    "alt": null
+   },
+   "products_count": 4
+  },
+  {
+   "id": 282845184084,
+   "title": "All Bidets",
+   "handle": "all-bidets-1",
+   "description": "",
+   "published_at": "2025-02-14T14:26:14-05:00",
+   "updated_at": "2026-09-03T07:11:49-04:00",
+   "image": {
+    "id": 1607868186708,
+    "created_at": "2025-02-14T14:27:02-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/DALL_E_2024-12-22_15.32.24_-_A_modern_bathroom_featuring_a_standalone_white_bidet_unit_with_a_clean_and_contemporary_design._The_room_has_neutral_tones_light_gray_tile_flooring.webp?v=1739561222",
+    "alt": null
+   },
+   "products_count": 16
+  },
+  {
+   "id": 280983306324,
+   "title": "All Products",
+   "handle": "all-bidets",
+   "description": "<p><strong>Explore Our Full Product Range</strong></p>\n<p>Discover a wide variety of high-quality, innovative products designed to enhance your daily life. From advanced bidet attachments and handheld sprayers to modern bathroom accessories, our collection combines functionality, durability, and style. Whether you're upgrading your home, seeking eco-friendly solutions, or improving personal hygiene, our products cater to every need.</p>\n<p>Shop now to find the perfect fit for your lifestyle!</p>",
+   "published_at": "2024-12-16T18:52:36-05:00",
+   "updated_at": "2026-09-03T07:11:49-04:00",
+   "image": {
+    "id": 1607518945364,
+    "created_at": "2024-12-16T18:52:34-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/VerticalFreeBidet.jpg?v=1739566884",
+    "alt": null
+   },
+   "products_count": 33
+  },
+  {
+   "id": 282845806676,
+   "title": "Assisted Bidet Toilet Lift",
+   "handle": "assisted-bidet",
+   "description": "",
+   "published_at": "2025-02-14T15:02:14-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607868252244,
+    "created_at": "2025-02-14T15:02:13-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/wl1bidetliftup3-2.jpg?v=1740876385",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 281226248276,
+   "title": "Bidet Attachments",
+   "handle": "non-electric-bidet-attachments",
+   "description": "",
+   "published_at": "2024-12-23T16:43:10-05:00",
+   "updated_at": "2026-08-21T07:11:41-04:00",
+   "image": {
+    "id": 1607557939284,
+    "created_at": "2024-12-23T16:43:10-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Untitled.png?v=1740874572",
+    "alt": null
+   },
+   "products_count": 6
+  },
+  {
+   "id": 280887754836,
+   "title": "Bidet Seats",
+   "handle": "smart-bidet-seats",
+   "description": "",
+   "published_at": "2024-12-12T22:03:08-05:00",
+   "updated_at": "2026-09-03T07:11:49-04:00",
+   "image": {
+    "id": 1607496138836,
+    "created_at": "2024-12-12T22:03:07-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Sffca11e99b4b41589b0aa0e9be248980g.webp?v=1740877530",
+    "alt": null
+   },
+   "products_count": 8
+  },
+  {
+   "id": 280957321300,
+   "title": "Bidet Toilets",
+   "handle": "bidet-toilets",
+   "description": "<p>Bidet toilets are an all-in-one solution that integrates advanced bidet functionality directly into the toilet, offering unparalleled hygiene, comfort, and convenience. These innovative fixtures combine the cleansing capabilities of a bidet with the practicality of a modern toilet, making them a premium choice for upgrading any bathroom.</p>",
+   "published_at": "2024-12-15T19:12:06-05:00",
+   "updated_at": "2026-07-08T17:39:24-04:00",
+   "image": {
+    "id": 1607513014356,
+    "created_at": "2024-12-15T19:12:05-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/shopping.webp?v=1740875134",
+    "alt": null
+   },
+   "products_count": 3
+  },
+  {
+   "id": 281537151060,
+   "title": "Blooming & Clean Sense",
+   "handle": "blooming-clean-sense",
+   "description": "<h2><strong>Blooming and Clean Sense Product Page Description:</strong></h2>\n<p>Welcome to the premier destination for Blooming and Clean Sense bidet products, proudly offered by Hygiene For Health. We are thrilled to present an exclusive limited-time promotion designed to bring the ultimate in hygiene, comfort, and luxury to your home. With <strong>15% off all Blooming bidet products</strong> and <strong>10% off all Clean Sense bidet products</strong>, now is the perfect time to upgrade your bathroom experience.</p>\n<h3><strong>Blooming Bidet Products: Sophistication Meets Functionality</strong></h3>\n<p>Blooming bidet seats are renowned for their perfect balance of style, performance, and innovation. These mid-range bidet seats are crafted with meticulous attention to detail, offering a seamless blend of luxury and practicality.</p>\n<p>Key Features of Blooming Products:</p>\n<ul>\n<li>\n<strong>Unlimited Warm Water</strong>: Experience consistent comfort with advanced heating technology.</li>\n<li>\n<strong>Ergonomic Design</strong>: Featuring sleek profiles that complement any bathroom aesthetic.</li>\n<li>\n<strong>Durable Build</strong>: Crafted with high-quality ABS plastic for longevity and reliability.</li>\n<li>\n<strong>Customizable Settings</strong>: Enjoy adjustable water pressure, nozzle positions, and temperature controls for a personalized cleanse.</li>\n</ul>\n<p>Whether you\u2019re seeking a feature-rich upgrade for your bathroom or a thoughtful gift for loved ones, Blooming bidet seats deliver exceptional value. Don\u2019t miss out on <strong>15% off</strong>\u2014a deal designed to make premium hygiene more accessible than ever.</p>\n<hr>\n<h3><strong>Clean Sense Bidet Products: Innovation at an Affordable Price</strong></h3>\n<p>Clean Sense bidets offer cutting-edge features at a price point that\u2019s perfect for budget-conscious shoppers. These bidets are the ideal choice for those seeking advanced functionality without compromising quality.</p>\n<p>Key Features of Clean Sense Products:</p>\n<ul>\n<li>\n<strong>Budget-Friendly Excellence</strong>: Affordable without sacrificing essential features.</li>\n<li>\n<strong>Advanced Cleaning Options</strong>: Includes an enema wash for enhanced hygiene.</li>\n<li>\n<strong>Unlimited Warm Water</strong>: Ensures a luxurious and soothing cleansing experience.</li>\n<li>\n<strong>User-Friendly Design</strong>: Simple to operate with intuitive controls, perfect for first-time bidet users.</li>\n</ul>\n<p>Perfect for families, individuals, or anyone looking to elevate their personal hygiene, Clean Sense bidets provide unbeatable value. Take advantage of <strong>10% off</strong> Clean Sense products and bring innovation and cleanliness into your home today.</p>\n<hr>\n<h3><strong>Why Choose Hygiene For Health?</strong></h3>\n<p>At Hygiene For Health, we\u2019ve been trusted as a leading distributor of bidet products since 1990. Our extensive selection, exceptional customer support, and commitment to quality ensure you\u2019ll find the perfect product for your needs. We\u2019re proud to stock Blooming and Clean Sense products, delivering reliable performance and outstanding customer satisfaction.</p>\n<p>This promotion is available for a limited time only, so don\u2019t wait\u2014transform your bathroom today with the elegance of Blooming or the innovation of Clean Sense bidets.</p>\n<p><strong>Shop now and enjoy the ultimate combination of savings and superior hygiene.</strong></p>",
+   "published_at": "2025-01-06T22:47:03-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607615971412,
+    "created_at": "2025-01-06T22:47:02-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Founder_CTO_3.png?v=1736627424",
+    "alt": null
+   },
+   "products_count": 2
+  },
+  {
+   "id": 281145540692,
+   "title": "Blooming Bidets",
+   "handle": "blooming-bidets",
+   "description": "",
+   "published_at": "2024-12-20T01:24:56-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607539064916,
+    "created_at": "2024-12-20T01:25:24-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/BloomingBidet-NB-R1063-lid-open-angle-view-480x696-trans.png?v=1740861253",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 281145770068,
+   "title": "Cascade Bidets",
+   "handle": "cascade-bidets",
+   "description": "",
+   "published_at": "2024-12-20T01:29:26-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607539130452,
+    "created_at": "2024-12-20T01:29:25-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Cascade3000-lid-closed-angle-viewwithlargeremote.png?v=1734676165",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 281173721172,
+   "title": "Clean Sense Bidets",
+   "handle": "clean-sense-bidets",
+   "description": "",
+   "published_at": "2024-12-21T13:39:30-05:00",
+   "updated_at": "2026-07-08T17:39:18-04:00",
+   "image": {
+    "id": 1607548928084,
+    "created_at": "2024-12-21T13:39:55-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/CleanSenseBidet-1500R-lid-closed_remote-600x550-low-res-wh_f504a878-ffbd-445d-9f31-e7ab5f96f4be.jpg?v=1734806395",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 282409107540,
+   "title": "Dignity Lifts",
+   "handle": "dignity-lifts",
+   "description": "<h2 data-start=\"3998\" data-end=\"4026\"><strong data-start=\"4001\" data-end=\"4026\">Selection Guide</strong></h2>\n<table data-start=\"4027\" data-end=\"4764\">\n<thead data-start=\"4027\" data-end=\"4108\">\n<tr data-start=\"4027\" data-end=\"4108\">\n<th data-start=\"4027\" data-end=\"4035\">Model</th>\n<th data-start=\"4035\" data-end=\"4046\">Best For</th>\n<th data-start=\"4046\" data-end=\"4064\">Weight Capacity</th>\n<th data-start=\"4064\" data-end=\"4078\">Lift Height</th>\n<th data-start=\"4078\" data-end=\"4093\">Power Source</th>\n<th data-start=\"4093\" data-end=\"4108\">Key Feature</th>\n</tr>\n</thead>\n<tbody data-start=\"4190\" data-end=\"4764\">\n<tr data-start=\"4190\" data-end=\"4286\">\n<td><strong data-start=\"4192\" data-end=\"4199\">XL1</strong></td>\n<td>Bariatric users</td>\n<td><strong data-start=\"4220\" data-end=\"4232\">650 lbs.</strong></td>\n<td><strong data-start=\"4235\" data-end=\"4241\">9\"</strong></td>\n<td>Plug-in</td>\n<td>Extra-wide frame for stability</td>\n</tr>\n<tr data-start=\"4287\" data-end=\"4377\">\n<td><strong data-start=\"4289\" data-end=\"4296\">HL1</strong></td>\n<td>Transfer assistance</td>\n<td><strong data-start=\"4321\" data-end=\"4333\">250 lbs.</strong></td>\n<td>N/A</td>\n<td>Battery</td>\n<td>Compact, easy transfers</td>\n</tr>\n<tr data-start=\"4378\" data-end=\"4466\">\n<td><strong data-start=\"4380\" data-end=\"4387\">WL1</strong></td>\n<td>Hygiene + lift</td>\n<td><strong data-start=\"4407\" data-end=\"4419\">300 lbs.</strong></td>\n<td><strong data-start=\"4422\" data-end=\"4429\">14\"</strong></td>\n<td>Plug-in</td>\n<td>Built-in bidet &amp; dryer</td>\n</tr>\n<tr data-start=\"4467\" data-end=\"4565\">\n<td><strong data-start=\"4469\" data-end=\"4476\">CL1</strong></td>\n<td>Care facilities</td>\n<td><strong data-start=\"4497\" data-end=\"4509\">350 lbs.</strong></td>\n<td><strong data-start=\"4512\" data-end=\"4519\">11\"</strong></td>\n<td>Battery</td>\n<td>Mobile, professional-grade lift</td>\n</tr>\n<tr data-start=\"4566\" data-end=\"4658\">\n<td><strong data-start=\"4568\" data-end=\"4575\">BL1</strong></td>\n<td>Budget-friendly lift</td>\n<td><strong data-start=\"4601\" data-end=\"4613\">300 lbs.</strong></td>\n<td><strong data-start=\"4616\" data-end=\"4622\">9\"</strong></td>\n<td>Plug-in</td>\n<td>Simple, reliable lift</td>\n</tr>\n<tr data-start=\"4659\" data-end=\"4764\">\n<td><strong data-start=\"4661\" data-end=\"4668\">DL1</strong></td>\n<td>Premium, sleek lift</td>\n<td><strong data-start=\"4693\" data-end=\"4705\">300 lbs.</strong></td>\n<td><strong data-start=\"4708\" data-end=\"4715\">14\"</strong></td>\n<td>Battery + plug-in</td>\n<td>Elegant, cordless option</td>\n</tr>\n</tbody>\n</table>",
+   "published_at": "2025-01-31T13:27:44-05:00",
+   "updated_at": "2026-07-08T17:39:26-04:00",
+   "image": {
+    "id": 1607773225044,
+    "created_at": "2025-01-31T13:27:44-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/BariatricToiletLiftXL1-FrontView.png?v=1738352263",
+    "alt": null
+   },
+   "products_count": 6
+  },
+  {
+   "id": 283405058132,
+   "title": "Dignity Lifts BL1 Basic Toilet Lift",
+   "handle": "dignity-lifts-bl1-basic-toilet-lift",
+   "description": "<h2 data-start=\"2754\" data-end=\"2799\"><strong data-start=\"2757\" data-end=\"2799\">Dignity Lifts BL1 Basic Toilet Lift</strong></h2>\n<p data-start=\"2800\" data-end=\"2873\"><strong data-start=\"2800\" data-end=\"2813\">Best for:</strong> Users needing a <strong data-start=\"2830\" data-end=\"2872\">cost-effective, basic lifting solution</strong>.</p>\n<p data-start=\"2875\" data-end=\"2892\"><strong data-start=\"2875\" data-end=\"2892\">Key Features:</strong></p>\n<ul data-start=\"2893\" data-end=\"3109\">\n<li data-start=\"2893\" data-end=\"2935\">\n<strong data-start=\"2895\" data-end=\"2920\">Four-foot sturdy base</strong> for stability.</li>\n<li data-start=\"2936\" data-end=\"2980\">\n<strong data-start=\"2938\" data-end=\"2964\">Dual lifting actuators</strong> for durability.</li>\n<li data-start=\"2981\" data-end=\"3004\">\n<strong data-start=\"2983\" data-end=\"3003\">9 inches of lift</strong>.</li>\n<li data-start=\"3005\" data-end=\"3046\">\n<strong data-start=\"3007\" data-end=\"3031\">Wired remote control</strong> for operation.</li>\n<li data-start=\"3047\" data-end=\"3077\">Supports up to <strong data-start=\"3064\" data-end=\"3076\">300 lbs.</strong>.</li>\n<li data-start=\"3078\" data-end=\"3109\">\n<strong data-start=\"3080\" data-end=\"3108\">Plugs into a wall outlet</strong>.</li>\n</ul>\n<p data-start=\"3111\" data-end=\"3130\"><strong data-start=\"3111\" data-end=\"3130\">Considerations:</strong></p>\n<ul data-start=\"3131\" data-end=\"3252\">\n<li data-start=\"3131\" data-end=\"3183\">\n<strong data-start=\"3133\" data-end=\"3156\">Not battery-powered</strong> (requires constant power).</li>\n<li data-start=\"3184\" data-end=\"3252\">\n<strong data-start=\"3186\" data-end=\"3224\">Compact (23 7/8\" width, 27\" depth)</strong> to fit most home bathrooms.</li>\n</ul>",
+   "published_at": "2025-02-23T13:22:14-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607939391572,
+    "created_at": "2025-02-23T13:22:13-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/8-Dignity-Lifts-Toilet-Lift-BL1-1250-cropped.jpg?v=1740876913",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 283405025364,
+   "title": "Dignity Lifts CL1 Commercial Toilet Lift",
+   "handle": "dignity-lifts-cl1-commercial-toilet-lift",
+   "description": "<h2 data-start=\"2133\" data-end=\"2183\"><strong data-start=\"2136\" data-end=\"2183\">Dignity Lifts CL1 Commercial Toilet Lift</strong></h2>\n<p data-start=\"2184\" data-end=\"2244\"><strong data-start=\"2184\" data-end=\"2197\">Best for:</strong> <strong data-start=\"2198\" data-end=\"2243\">Healthcare and assisted living facilities</strong>.</p>\n<p data-start=\"2246\" data-end=\"2263\"><strong data-start=\"2246\" data-end=\"2263\">Key Features:</strong></p>\n<ul data-start=\"2264\" data-end=\"2535\">\n<li data-start=\"2264\" data-end=\"2313\">\n<strong data-start=\"2266\" data-end=\"2285\">Lockable wheels</strong> for mobility between rooms.</li>\n<li data-start=\"2314\" data-end=\"2365\">\n<strong data-start=\"2316\" data-end=\"2338\">Broad, stable base</strong> for professional settings.</li>\n<li data-start=\"2366\" data-end=\"2412\">\n<strong data-start=\"2368\" data-end=\"2392\">Wired remote control</strong> for easy operation.</li>\n<li data-start=\"2413\" data-end=\"2460\">\n<strong data-start=\"2415\" data-end=\"2436\">11 inches of lift</strong> for optimal assistance.</li>\n<li data-start=\"2461\" data-end=\"2504\">\n<strong data-start=\"2463\" data-end=\"2487\">Rechargeable battery</strong> for portability.</li>\n<li data-start=\"2505\" data-end=\"2535\">Supports up to <strong data-start=\"2522\" data-end=\"2534\">350 lbs.</strong>.</li>\n</ul>\n<p data-start=\"2537\" data-end=\"2556\"><strong data-start=\"2537\" data-end=\"2556\">Considerations:</strong></p>\n<ul data-start=\"2557\" data-end=\"2649\">\n<li data-start=\"2557\" data-end=\"2592\">\n<strong data-start=\"2559\" data-end=\"2591\">Not recommended for home use</strong>.</li>\n<li data-start=\"2593\" data-end=\"2649\">Designed for <strong data-start=\"2608\" data-end=\"2648\">ADA-compliant professional restrooms</strong>.</li>\n</ul>",
+   "published_at": "2025-02-23T13:21:36-05:00",
+   "updated_at": "2026-07-08T17:39:26-04:00",
+   "image": {
+    "id": 1607939358804,
+    "created_at": "2025-02-23T13:21:36-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/2-CL1-Dignity-Lifts-PT-Toilet-Seat-Up-Lid-Down.jpg?v=1740876841",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 283405090900,
+   "title": "Dignity Lifts DL1 Deluxe Toilet Lift",
+   "handle": "dignity-lifts-dl1-deluxe-toilet-lift",
+   "description": "<h2 data-start=\"3332\" data-end=\"3378\"><strong data-start=\"3335\" data-end=\"3378\">Dignity Lifts DL1 Deluxe Toilet Lift</strong></h2>\n<p data-start=\"3379\" data-end=\"3464\"><strong data-start=\"3379\" data-end=\"3392\">Best for:</strong> Individuals looking for a <strong data-start=\"3419\" data-end=\"3463\">sleek, high-performance lifting solution</strong>.</p>\n<p data-start=\"3466\" data-end=\"3483\"><strong data-start=\"3466\" data-end=\"3483\">Key Features:</strong></p>\n<ul data-start=\"3484\" data-end=\"3776\">\n<li data-start=\"3484\" data-end=\"3548\">\n<strong data-start=\"3486\" data-end=\"3517\">Elegant, low-profile design</strong> that blends into any bathroom.</li>\n<li data-start=\"3549\" data-end=\"3599\">\n<strong data-start=\"3551\" data-end=\"3572\">14 inches of lift</strong> \u2013 industry-leading height.</li>\n<li data-start=\"3600\" data-end=\"3644\">\n<strong data-start=\"3602\" data-end=\"3620\">Four wide feet</strong> for enhanced stability.</li>\n<li data-start=\"3645\" data-end=\"3695\">\n<strong data-start=\"3647\" data-end=\"3671\">Rechargeable battery</strong> for cordless operation.</li>\n<li data-start=\"3696\" data-end=\"3745\">\n<strong data-start=\"3698\" data-end=\"3719\">Dual power option</strong> \u2013 use corded or cordless.</li>\n<li data-start=\"3746\" data-end=\"3776\">Supports up to <strong data-start=\"3763\" data-end=\"3775\">300 lbs.</strong>.</li>\n</ul>\n<p data-start=\"3778\" data-end=\"3797\"><strong data-start=\"3778\" data-end=\"3797\">Considerations:</strong></p>\n<ul data-start=\"3798\" data-end=\"3899\">\n<li data-start=\"3798\" data-end=\"3843\">Battery lasts up to <strong data-start=\"3820\" data-end=\"3842\">30 days per charge</strong>.</li>\n<li data-start=\"3844\" data-end=\"3899\">\n<strong data-start=\"3846\" data-end=\"3898\">More advanced than BL1 but still budget-friendly</strong>.</li>\n</ul>",
+   "published_at": "2025-02-23T13:22:45-05:00",
+   "updated_at": "2026-07-08T17:39:26-04:00",
+   "image": {
+    "id": 1607939424340,
+    "created_at": "2025-02-23T13:22:45-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/2-DL1-Dignity-Lifts-PT-Toilet-Seat-up.jpg?v=1740876997",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 283404861524,
+   "title": "Dignity Lifts HL1 Helper Lift",
+   "handle": "dignity-lifts-hl1-helper-lift",
+   "description": "<h2 data-start=\"874\" data-end=\"913\"><strong data-start=\"877\" data-end=\"913\">Dignity Lifts HL1 Helper Lift</strong></h2>\n<p data-start=\"914\" data-end=\"999\"><strong data-start=\"914\" data-end=\"927\">Best for:</strong> Individuals needing assistance with transfers between seated positions.</p>\n<p data-start=\"1001\" data-end=\"1018\"><strong data-start=\"1001\" data-end=\"1018\">Key Features:</strong></p>\n<ul data-start=\"1019\" data-end=\"1284\">\n<li data-start=\"1019\" data-end=\"1081\">\n<strong data-start=\"1021\" data-end=\"1059\">Lightweight (23\" wide) and compact</strong> for easy maneuvering.</li>\n<li data-start=\"1082\" data-end=\"1142\">\n<strong data-start=\"1084\" data-end=\"1109\">Electric-powered lift</strong> with a <strong data-start=\"1117\" data-end=\"1141\">rechargeable battery</strong>.</li>\n<li data-start=\"1143\" data-end=\"1191\">\n<strong data-start=\"1145\" data-end=\"1172\">Adjustable helper sling</strong> for added comfort.</li>\n<li data-start=\"1192\" data-end=\"1253\">\n<strong data-start=\"1194\" data-end=\"1213\">Padded armrests</strong> and <strong data-start=\"1218\" data-end=\"1238\">lockable casters</strong> for stability.</li>\n<li data-start=\"1254\" data-end=\"1284\">Supports up to <strong data-start=\"1271\" data-end=\"1283\">250 lbs.</strong>.</li>\n</ul>\n<p data-start=\"1286\" data-end=\"1305\"><strong data-start=\"1286\" data-end=\"1305\">Considerations:</strong></p>\n<ul data-start=\"1306\" data-end=\"1394\">\n<li data-start=\"1306\" data-end=\"1358\">Best for users who can <strong data-start=\"1331\" data-end=\"1357\">sit upright unassisted</strong>.</li>\n<li data-start=\"1359\" data-end=\"1394\">\n<strong data-start=\"1361\" data-end=\"1393\">Not designed for outdoor use</strong>.</li>\n</ul>",
+   "published_at": "2025-02-23T13:18:20-05:00",
+   "updated_at": "2026-07-08T17:39:23-04:00",
+   "image": {
+    "id": 1607939293268,
+    "created_at": "2025-02-23T13:18:19-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/KT4A9885.jpg?v=1740876335",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 283404894292,
+   "title": "Dignity Lifts WL1 Bidet Toilet Lift",
+   "handle": "dignity-lifts-wl1-bidet-toilet-lift",
+   "description": "<h2 data-start=\"1496\" data-end=\"1541\"><strong data-start=\"1499\" data-end=\"1541\">Dignity Lifts WL1 Bidet Toilet Lift</strong></h2>\n<p data-start=\"1542\" data-end=\"1621\"><strong data-start=\"1542\" data-end=\"1555\">Best for:</strong> Individuals seeking <strong data-start=\"1576\" data-end=\"1603\">hygiene and convenience</strong> in a single unit.</p>\n<p data-start=\"1623\" data-end=\"1640\"><strong data-start=\"1623\" data-end=\"1640\">Key Features:</strong></p>\n<ul data-start=\"1641\" data-end=\"1920\">\n<li data-start=\"1641\" data-end=\"1700\">\n<strong data-start=\"1643\" data-end=\"1663\">Integrated bidet</strong> with <strong data-start=\"1669\" data-end=\"1699\">adjustable warm water wash</strong>.</li>\n<li data-start=\"1701\" data-end=\"1746\">\n<strong data-start=\"1703\" data-end=\"1733\">Blow dryer and heated seat</strong> for comfort.</li>\n<li data-start=\"1747\" data-end=\"1783\">\n<strong data-start=\"1749\" data-end=\"1782\">Automatic deodorizing feature</strong>.</li>\n<li data-start=\"1784\" data-end=\"1831\">\n<strong data-start=\"1786\" data-end=\"1807\">14 inches of lift</strong> for optimal assistance.</li>\n<li data-start=\"1832\" data-end=\"1889\">\n<strong data-start=\"1834\" data-end=\"1867\">Multi-function remote control</strong> for user preferences.</li>\n<li data-start=\"1890\" data-end=\"1920\">Supports up to <strong data-start=\"1907\" data-end=\"1919\">300 lbs.</strong>.</li>\n</ul>\n<p data-start=\"1922\" data-end=\"1941\"><strong data-start=\"1922\" data-end=\"1941\">Considerations:</strong></p>\n<ul data-start=\"1942\" data-end=\"2042\">\n<li data-start=\"1942\" data-end=\"1999\">\n<strong data-start=\"1944\" data-end=\"1981\">Requires basic plumbing knowledge</strong> for installation.</li>\n<li data-start=\"2000\" data-end=\"2042\">Needs <strong data-start=\"2008\" data-end=\"2041\">a nearby GFI-protected outlet</strong>.</li>\n</ul>",
+   "published_at": "2025-02-23T13:19:39-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607939326036,
+    "created_at": "2025-02-23T13:19:38-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/WL1Nozzleoutplushchute.jpg?v=1740877257",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 283404533844,
+   "title": "Dignity Lifts XL1 Bariatric Toilet Lift",
+   "handle": "dignity-lifts-xl1-bariatric-toilet-lift",
+   "description": "<h2 data-start=\"200\" data-end=\"249\"><strong data-start=\"203\" data-end=\"249\">Dignity Lifts XL1 Bariatric Toilet Lift</strong></h2>\n<p data-start=\"250\" data-end=\"316\"><strong data-start=\"250\" data-end=\"263\">Best for:</strong> Bariatric users needing extra support and stability.</p>\n<p data-start=\"318\" data-end=\"335\"><strong data-start=\"318\" data-end=\"335\">Key Features:</strong></p>\n<ul data-start=\"336\" data-end=\"625\">\n<li data-start=\"336\" data-end=\"365\">Supports up to <strong data-start=\"353\" data-end=\"365\">650 lbs.</strong>\n</li>\n<li data-start=\"366\" data-end=\"429\">Extra-wide frame (<strong data-start=\"386\" data-end=\"399\">30\" width</strong>) with <strong data-start=\"406\" data-end=\"428\">removable armrests</strong>.</li>\n<li data-start=\"430\" data-end=\"478\">\n<strong data-start=\"432\" data-end=\"458\">Dual lifting actuators</strong> for added strength.</li>\n<li data-start=\"479\" data-end=\"517\">\n<strong data-start=\"481\" data-end=\"496\">9-inch lift</strong> for safe transition.</li>\n<li data-start=\"518\" data-end=\"568\">Compatible with <strong data-start=\"536\" data-end=\"567\">16\"-18\" toilet bowl heights</strong>.</li>\n<li data-start=\"569\" data-end=\"625\">\n<strong data-start=\"571\" data-end=\"599\">Plugs into a wall outlet</strong> for continuous operation.</li>\n</ul>\n<p data-start=\"627\" data-end=\"646\"><strong data-start=\"627\" data-end=\"646\">Considerations:</strong></p>\n<ul data-start=\"647\" data-end=\"786\">\n<li data-start=\"647\" data-end=\"717\">Requires <strong data-start=\"658\" data-end=\"675\">15\" clearance</strong> from the toilet center to each side wall.</li>\n<li data-start=\"718\" data-end=\"786\">Weighs <strong data-start=\"727\" data-end=\"738\">90 lbs.</strong>, requiring proper handling during installation.</li>\n</ul>",
+   "published_at": "2025-02-23T13:02:44-05:00",
+   "updated_at": "2026-07-08T17:39:23-04:00",
+   "image": {
+    "id": 1607939260500,
+    "created_at": "2025-02-23T13:02:43-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/DignityLiftsXLPostcardtoEveryone-Launch.jpg?v=1740877133",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 281207046228,
+   "title": "Galaxy Bidets",
+   "handle": "galaxy-bidets",
+   "description": "",
+   "published_at": "2024-12-22T19:37:28-05:00",
+   "updated_at": "2026-07-08T17:39:22-04:00",
+   "image": {
+    "id": 1607554662484,
+    "created_at": "2024-12-22T19:37:27-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/GalaxyBidet-GB5000-lid-open-angle-view-500-637-low-res.jpg?v=1734914248",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 281146097748,
+   "title": "Handheld Bidets",
+   "handle": "handheld-bidets-1",
+   "description": "",
+   "published_at": "2024-12-20T01:44:51-05:00",
+   "updated_at": "2026-07-08T17:39:25-04:00",
+   "image": {
+    "id": 1607539195988,
+    "created_at": "2024-12-20T01:45:40-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Sba553028fddb41eaba37b3f488d0c85bA.jpg?v=1736121207",
+    "alt": null
+   },
+   "products_count": 6
+  },
+  {
+   "id": 280958107732,
+   "title": "Handheld Sprayers",
+   "handle": "bidet-handhelds",
+   "description": "<p><strong>Handheld Sprayers - Hygiene Made Simple</strong></p>\n<p>Upgrade your personal hygiene with our versatile <strong>Handheld Sprayers</strong>. Designed for comfort and convenience, these bidet sprayers are perfect for personal cleaning, diaper rinsing, and general bathroom maintenance. Featuring durable materials, adjustable water pressure, and easy installation, our handheld bidets provide a refreshing and eco-friendly alternative to traditional methods.</p>\n<p>Experience a cleaner, greener way to care for yourself and your family!</p>",
+   "published_at": "2024-12-15T20:10:17-05:00",
+   "updated_at": "2026-07-08T17:39:25-04:00",
+   "image": {
+    "id": 1607513047124,
+    "created_at": "2024-12-15T20:10:17-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Scde3f919d6a243b9976fe2d5942aca77w_874c7476-1a0b-42f2-a345-5af499b2aa89.webp?v=1740874780",
+    "alt": null
+   },
+   "products_count": 4
+  },
+  {
+   "id": 281145573460,
+   "title": "Nova Bidets",
+   "handle": "nova-bidets",
+   "description": "",
+   "published_at": "2024-12-20T01:26:05-05:00",
+   "updated_at": "2026-07-08T17:39:24-04:00",
+   "image": {
+    "id": 1607539097684,
+    "created_at": "2024-12-20T01:26:04-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Ultra-NOVABidetSeatClosedOnToilet_3d923ce6-f454-4cf5-aaff-f9a5ce1b2896.jpg?v=1736122425",
+    "alt": null
+   },
+   "products_count": 2
+  },
+  {
+   "id": 281207111764,
+   "title": "Olympia Bidets",
+   "handle": "olympia",
+   "description": "",
+   "published_at": "2024-12-22T19:39:07-05:00",
+   "updated_at": "2026-07-08T17:39:23-04:00",
+   "image": {
+    "id": 1607554728020,
+    "created_at": "2024-12-22T19:39:07-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/51h2GjZzTxL._AC_SX679.jpg?v=1740874208",
+    "alt": null
+   },
+   "products_count": 2
+  },
+  {
+   "id": 281207078996,
+   "title": "Saniwise Bidets",
+   "handle": "saniwise-bidets",
+   "description": "",
+   "published_at": "2024-12-22T19:38:01-05:00",
+   "updated_at": "2026-09-03T07:11:49-04:00",
+   "image": {
+    "id": 1607554695252,
+    "created_at": "2024-12-22T19:38:00-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/saniwisebidettoiletseatelongatedtoiletbowlself-cleaningnozzlesfemininerearfrontspraywashsoftcloselidbathroomdiyinstallationnon-electricwaterpressure_900x_3cb49e9a-eeef-49f8-a3e8-295dd.webp?v=1740861277",
+    "alt": null
+   },
+   "products_count": 1
+  },
+  {
+   "id": 280887394388,
+   "title": "Travel Bidets",
+   "handle": "handheld-bidets",
+   "description": "<p>Travel bidets are compact, portable hygiene solutions designed for users who want to maintain cleanliness and comfort on the go. Lightweight and easy to use, they are ideal for travelers, campers, and anyone who requires a convenient bidet option outside of their home. These versatile devices ensure hygiene and convenience wherever you are, without relying on traditional plumbing or electricity.</p>",
+   "published_at": "2024-12-12T21:35:17-05:00",
+   "updated_at": "2026-07-08T17:39:23-04:00",
+   "image": {
+    "id": 1607496106068,
+    "created_at": "2024-12-12T21:35:16-05:00",
+    "src": "https://cdn.shopify.com/s/files/1/0602/0811/9892/collections/Scde3f919d6a243b9976fe2d5942aca77w.webp?v=1740873993",
+    "alt": null
+   },
+   "products_count": 2
+  }
+ ]
+}
