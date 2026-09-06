@@ -60,6 +60,7 @@ methodical. These rules are not optional:
 | Default branch | `main` |
 | Working branch | `claude/claude-md-knowledge-base-wf8xrn` |
 | Store platform | Shopify, Basic plan |
+| Store address | `b5c390-92.myshopify.com` (admin: `admin.shopify.com/store/b5c390-92`) |
 | Build step | None expected. Shopify themes ship raw Liquid, CSS, and JS. |
 
 ### Current state (2026-09-06)
@@ -128,10 +129,10 @@ templates/
 
 ```bash
 # Pull the live theme into this repo (first-time setup and before big changes)
-shopify theme pull --store bidetworld.myshopify.com
+shopify theme pull --store b5c390-92.myshopify.com
 
 # Local preview with hot reload (does not touch the live theme)
-shopify theme dev --store bidetworld.myshopify.com
+shopify theme dev --store b5c390-92.myshopify.com
 
 # Lint Liquid, JSON, and theme conventions
 shopify theme check
@@ -246,7 +247,7 @@ Checklist:
 Step-by-step for Jeff:
 1. On your computer, open a terminal in the `Bidetworld-theme` folder.
 2. Run `npm install -g @shopify/cli` (one time only).
-3. Run `shopify theme pull --store bidetworld.myshopify.com` and log in when asked.
+3. Run `shopify theme pull --store b5c390-92.myshopify.com` and log in when asked.
 4. Run `git add -A && git commit -m "theme: initial pull of live theme" && git push`.
 5. Tell Claude "theme is pushed" and we fill in §8 together.
 
@@ -288,7 +289,7 @@ differently than expected. Newest first.
   GoDaddy parking IPs, not Shopify's `23.227.38.65`. Google still indexes the site as
   "Bidet World - Bidets & Toilet Lifts", so the outage is recent. Every automated
   blog and social post is currently sending traffic to a parking page.
-  `bidetworld.myshopify.com` returns 404, so the store's myshopify handle is something
+  `b5c390-92.myshopify.com` returns 404, so the store's myshopify handle is something
   else. Jeff needs to supply it.
 - **2026-09-06: Root cause confirmed by Jeff: the bidetworld.com domain expired at
   GoDaddy.** GoDaddy parked it, which is why the world saw the parking page while the
