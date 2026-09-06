@@ -330,8 +330,10 @@ Things that will bite us if forgotten.
   `AppData\Roaming\npm`). Skip the npm install step.
 - **Jeff's local clone lives at `C:\Users\jeffo\Bidetworld-theme`** and can be stale.
   Run `git fetch origin` before `git checkout <branch>` or the branch is "not found".
-- **`shopify theme pull` with no `--store` flag prompts for the store.** Use that
-  instead of asking Jeff to type the myshopify address.
+- **`shopify theme pull` requires `--store`.** It does not prompt. The store address
+  is the part after `/store/` in the Shopify admin URL
+  (`admin.shopify.com/store/NAME` means `NAME.myshopify.com`). Record it in §8 once
+  Jeff shares it.
 - **Quick health check for the live site** (run before any theme work):
   `curl -sI -A "Mozilla/5.0" https://bidetworld.com/ | grep -i shopify` should print
   Shopify headers. If it prints nothing and the body is a `/lander` redirect, the
