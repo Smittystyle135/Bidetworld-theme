@@ -289,8 +289,10 @@ differently than expected. Newest first.
   GoDaddy parking IPs, not Shopify's `23.227.38.65`. Google still indexes the site as
   "Bidet World - Bidets & Toilet Lifts", so the outage is recent. Every automated
   blog and social post is currently sending traffic to a parking page.
-  `b5c390-92.myshopify.com` returns 404, so the store's myshopify handle is something
-  else. Jeff needs to supply it.
+  The store's real myshopify address is `b5c390-92.myshopify.com`. Its homepage
+  redirects to bidetworld.com (the primary domain), but `/products.json` and
+  `/collections.json` on the myshopify address answer directly, so product data can be
+  pulled from this environment even while the domain is broken.
 - **2026-09-06: Root cause confirmed by Jeff: the bidetworld.com domain expired at
   GoDaddy.** GoDaddy parked it, which is why the world saw the parking page while the
   Shopify store itself stayed live. Jeff is renewing. **Prevention:** turn on
