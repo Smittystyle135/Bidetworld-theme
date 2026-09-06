@@ -1,0 +1,394 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "slideshow_hero_FBgCpq": {
+      "type": "slideshow-hero",
+      "blocks": {
+        "image_icBqER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DALL_E_2024-12-16_19.36.25_-_A_hyper-realistic_and_organically_natural_image_for_a_bidet_company_homepage._The_scene_features_a_luxurious_and_modern_bathroom_with_a_sleek_pristin_71b8cc8e-61af-4057-815a-dd1ac9baa429.webp",
+            "image_mobile": "shopify://shop_images/DALL_E_2024-12-16_19.36.25_-_A_hyper-realistic_and_organically_natural_image_for_a_bidet_company_homepage._The_scene_features_a_luxurious_and_modern_bathroom_with_a_sleek_pristin_71b8.webp",
+            "heading": "Sustainable Luxury for Every Bathroom",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "button_label": "Shop All",
+            "button_link": "shopify://collections/all-bidets",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        },
+        "video_KYWK8L": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/vecteezy_asian-woman-s-hand-using-a-water-sprayer-to-clean-the-toilet_52015656.mov",
+            "video_url": "",
+            "description": "",
+            "video_url_mobile": "",
+            "heading": "Precision Clean at Your Fingertips: Discover your perfect bidet",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "button_label": "Take quiz to find your perfect bidet",
+            "button_link": "https://bidetworld.com/pages/bidet-quiz",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        },
+        "video_39k63e": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/vecteezy_rotating-washbasin-studio-filming-in-the-background-a-row_15279099.mov",
+            "video_url": "",
+            "description": "",
+            "video_mobile": "shopify://files/videos/vecteezy_rotating-washbasin-studio-filming-in-the-background-a-row_15279099.mov",
+            "video_url_mobile": "",
+            "heading": "All-in-One Comfort: Elevate Your Bathroom with Bidet Combos",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "button_label": "Shop Bidet Combos",
+            "button_link": "shopify://collections/bidet-toilets",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "image_icBqER",
+        "video_KYWK8L",
+        "video_39k63e"
+      ],
+      "custom_css": [],
+      "settings": {
+        "logo_width": 1600,
+        "autoplay": true,
+        "autoplay_speed": 9,
+        "show_navigation": true,
+        "image_height": "100vh",
+        "content_width": "small",
+        "image_height_mobile": "auto",
+        "accessibility_info": "Slideshow about our brand",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "only_homepage": true,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "rich_text_X6qtBL": {
+      "type": "rich-text",
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "Not sure what bidet? Take the quiz!",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "find your perfect bidet",
+        "button_link": "https://bidetworld.com/pages/bidet-quiz",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 12,
+        "padding_bottom": 24,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping and returns",
+            "link": "shopify://pages/support",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "announcement_7yKmpa": {
+          "type": "announcement",
+          "settings": {
+            "icon": "gift",
+            "text": "Up to 15% off select brands",
+            "link": "shopify://pages/sales-offers",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "icon": "email",
+            "text": "A question? Visit our contact page",
+            "link": "shopify://pages/support",
+            "hide_icon_mobile": true,
+            "text_mobile": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement_7yKmpa",
+        "announcement-2"
+      ],
+      "settings": {
+        "show_social": true,
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "invert_icons_selectors": false,
+        "announcement_position": "center",
+        "announcement_layout": "carousel",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_navigation": true,
+        "direction": "left",
+        "speed": 20,
+        "color_text": "#fafafa",
+        "color_background": "#1f1f1f",
+        "gradient_background": "",
+        "color_highlight": "#ffddbf",
+        "gradient_highlight": "",
+        "hide_homepage": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_9KVRrC": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Assisted Toilet Lifts",
+            "menu_width": "large",
+            "show_menu_image": true,
+            "button_label": "",
+            "button_link": "shopify://collections/dignity-lifts",
+            "promo_image_1": "shopify://shop_images/Untitled_design_12.png",
+            "promo_image_ratio_1": "adapt",
+            "promo_heading_1": "Bidet Toilet Lift",
+            "promo_subtext_1": "A <strong>toilet lift with an integrated bidet</strong>, providing ultimate hygiene and comfort.",
+            "promo_overlay_content_1": true,
+            "promo_link_1": "shopify://products/dignity-lifts-wl1-bidet-toilet-lift",
+            "promo_tag_1": "Integrated Bidet",
+            "promo_color_text_1": "#ffffff",
+            "promo_color_overlay_1": "#000000",
+            "promo_overlay_opacity_1": 40,
+            "promo_image_ratio_2": "adapt",
+            "promo_heading_2": "",
+            "promo_subtext_2": "",
+            "promo_overlay_content_2": true,
+            "promo_link_2": "",
+            "promo_tag_2": "",
+            "promo_color_text_2": "#ffffff",
+            "promo_color_overlay_2": "#000000",
+            "promo_overlay_opacity_2": 40,
+            "promo_image_ratio_3": "adapt",
+            "promo_heading_3": "",
+            "promo_subtext_3": "",
+            "promo_overlay_content_3": true,
+            "promo_link_3": "",
+            "promo_tag_3": "",
+            "promo_color_text_3": "#ffffff",
+            "promo_color_overlay_3": "#000000",
+            "promo_overlay_opacity_3": 40,
+            "promo_image_ratio_4": "adapt",
+            "promo_heading_4": "",
+            "promo_subtext_4": "",
+            "promo_overlay_content_4": true,
+            "promo_link_4": "",
+            "promo_tag_4": "",
+            "promo_color_text_4": "#ffffff",
+            "promo_color_overlay_4": "#000000",
+            "promo_overlay_opacity_4": 40,
+            "promo_image_ratio_5": "adapt",
+            "promo_heading_5": "",
+            "promo_subtext_5": "",
+            "promo_overlay_content_5": true,
+            "promo_link_5": "",
+            "promo_tag_5": "",
+            "promo_color_text_5": "#ffffff",
+            "promo_color_overlay_5": "#000000",
+            "promo_overlay_opacity_5": 40
+          }
+        },
+        "mega_menu_7WRHPy": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Bidets",
+            "menu_width": "large",
+            "show_menu_image": true,
+            "button_label": "",
+            "button_link": "shopify://collections/all-bidets-1",
+            "promo_image_ratio_1": "adapt",
+            "promo_heading_1": "",
+            "promo_subtext_1": "",
+            "promo_overlay_content_1": true,
+            "promo_link_1": "shopify://products/nova-ultra-nova-luxury-bidet-seat-white-elongated",
+            "promo_tag_1": "Popular",
+            "promo_color_text_1": "#ffffff",
+            "promo_color_overlay_1": "#000000",
+            "promo_overlay_opacity_1": 40,
+            "promo_image_2": "shopify://shop_images/BloomingBidet-NB-R1063-lid-open-angle-view-480x696-low-res-wh_41b7ff4b-2f66-4f22-bb23-d6778ab0187c.jpg",
+            "promo_image_ratio_2": "adapt",
+            "promo_heading_2": "Bidet Seats - Blooming & Clean Sense",
+            "promo_subtext_2": "15% off Blooming - 10% off Clean Sense",
+            "promo_overlay_content_2": true,
+            "promo_link_2": "shopify://collections/blooming-clean-sense",
+            "promo_tag_2": "15% Off",
+            "promo_color_text_2": "#ffffff",
+            "promo_color_overlay_2": "#000000",
+            "promo_overlay_opacity_2": 40,
+            "promo_image_ratio_3": "adapt",
+            "promo_heading_3": "",
+            "promo_subtext_3": "",
+            "promo_overlay_content_3": true,
+            "promo_link_3": "",
+            "promo_tag_3": "",
+            "promo_color_text_3": "#ffffff",
+            "promo_color_overlay_3": "#000000",
+            "promo_overlay_opacity_3": 40,
+            "promo_image_ratio_4": "adapt",
+            "promo_heading_4": "",
+            "promo_subtext_4": "",
+            "promo_overlay_content_4": true,
+            "promo_link_4": "",
+            "promo_tag_4": "",
+            "promo_color_text_4": "#ffffff",
+            "promo_color_overlay_4": "#000000",
+            "promo_overlay_opacity_4": 40,
+            "promo_image_ratio_5": "adapt",
+            "promo_heading_5": "",
+            "promo_subtext_5": "",
+            "promo_overlay_content_5": true,
+            "promo_link_5": "",
+            "promo_tag_5": "",
+            "promo_color_text_5": "#ffffff",
+            "promo_color_overlay_5": "#000000",
+            "promo_overlay_opacity_5": 40
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_9KVRrC",
+        "mega_menu_7WRHPy"
+      ],
+      "custom_css": [],
+      "settings": {
+        "logo_h1": true,
+        "menu": "main-menu",
+        "menu_mobile": "main-menu",
+        "menu_active": "block",
+        "hover_menu": true,
+        "header_layout": "left-center",
+        "sticky_header_type": "on-scroll-up",
+        "icons_size": "lg",
+        "menu_drawer_icon_label": "",
+        "enable_language_selector_desktop": true,
+        "enable_country_selector_desktop": false,
+        "show_country_name_dekstop": false,
+        "show_country_flag_desktop": false,
+        "logo_position_mobile": "center",
+        "accordion_menu_mobile": false,
+        "show_social": true,
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "transparent_color_text": "#ffffff",
+        "color_text": "#171717",
+        "color_background": "#ffffff",
+        "color_localization": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "176218973080fddb74": {
+      "type": "apps",
+      "blocks": {
+        "octane_ai_advanced_quiz_maker_octaneai_section_JxNDkW": {
+          "type": "shopify://apps/octane-ai-advanced-quiz-maker/blocks/octaneai_section/db2513a5-c9b0-40fd-9058-42c28e6e6502",
+          "settings": {
+            "octane_id": "",
+            "embed_type": "fullpage",
+            "enable_loading": false,
+            "stroke_color": "#000000",
+            "mobile_height": "match_browser",
+            "mobile_custom_height_px": 600,
+            "desktop_height": "match_browser",
+            "desktop_custom_height_px": 600
+          }
+        }
+      },
+      "block_order": [
+        "octane_ai_advanced_quiz_maker_octaneai_section_JxNDkW"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_hero_FBgCpq",
+    "rich_text_X6qtBL",
+    "announcement-bar",
+    "header",
+    "176218973080fddb74"
+  ]
+}

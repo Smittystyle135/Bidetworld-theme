@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "collection_list_aTLcd4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_jX6RhE": {
+          "type": "collection",
+          "settings": {
+            "collection": "assisted-bidet",
+            "title": "Dignity Lift Bidets",
+            "description": "Toilet lifts for safety and independence.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_VgmjYq": {
+          "type": "collection",
+          "settings": {
+            "collection": "nova-bidets",
+            "title": "",
+            "description": "Luxury, innovation, and ultimate hygiene.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fUz7TC": {
+          "type": "collection",
+          "settings": {
+            "collection": "cascade-bidets",
+            "image": "shopify://shop_images/Cascade3000ByDignitySolutions-PrototypeAngleopen.jpg",
+            "title": "",
+            "description": "Accessible design with intuitive controls.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cyjDc4": {
+          "type": "collection",
+          "settings": {
+            "collection": "blooming-bidets",
+            "title": "",
+            "description": "Balanced quality and everyday comfort.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_pg4cMC": {
+          "type": "collection",
+          "settings": {
+            "collection": "clean-sense-bidets",
+            "image": "shopify://shop_images/Clean-Sense-1500R-R3QO-SO-1x1sm.jpg",
+            "title": "",
+            "description": "Affordable, feature-packed, reliable performance.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_cCk8dc": {
+          "type": "collection",
+          "settings": {
+            "collection": "galaxy-bidets",
+            "title": "",
+            "description": "User-friendly, sittable lid, dependable choice.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Hq9nrG": {
+          "type": "collection",
+          "settings": {
+            "collection": "saniwise-bidets",
+            "title": "",
+            "description": "Simple, non-electric, budget-friendly option.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9R3Deb": {
+          "type": "collection",
+          "settings": {
+            "collection": "olympia",
+            "title": "",
+            "description": "Portable bidets for hygiene on-the-go.",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_jX6RhE",
+        "collection_VgmjYq",
+        "collection_fUz7TC",
+        "collection_cyjDc4",
+        "collection_pg4cMC",
+        "collection_cCk8dc",
+        "collection_Hq9nrG",
+        "collection_9R3Deb"
+      ],
+      "settings": {
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": true,
+        "columns": 4,
+        "carousel_on_desktop": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Bidet Brands",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "collection_list_aTLcd4"
+  ]
+}

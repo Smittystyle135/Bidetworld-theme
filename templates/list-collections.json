@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_RFhaBH": {
+          "type": "collection",
+          "settings": {
+            "collection": "dignity-lifts",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_mYdeVz": {
+          "type": "collection",
+          "settings": {
+            "collection": "smart-bidet-seats",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_pmUJAf": {
+          "type": "collection",
+          "settings": {
+            "collection": "bidet-toilets",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_3kiByE": {
+          "type": "collection",
+          "settings": {
+            "collection": "non-electric-bidet-attachments",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_VbY84y": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "Accessories",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_U48GNQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "bidet-handhelds",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_3E7MxY": {
+          "type": "collection",
+          "settings": {
+            "collection": "handheld-bidets",
+            "image": "shopify://shop_images/Untitled_design_22.png",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_RFhaBH",
+        "collection_mYdeVz",
+        "collection_pmUJAf",
+        "collection_3kiByE",
+        "collection_VbY84y",
+        "collection_U48GNQ",
+        "collection_3E7MxY"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "columns": 4,
+        "columns_mobile": "1",
+        "heading": "Collections",
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

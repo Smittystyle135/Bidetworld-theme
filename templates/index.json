@@ -1,0 +1,705 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Bidet World, we’re redefining bathroom comfort and hygiene. Our carefully selected range of bidet solutions – from simple attachments to luxurious smart seats – brings modern convenience, cleanliness, and eco-friendly living straight to your home.</p><p>Say goodbye to toilet paper waste and hello to a cleaner, greener lifestyle. With features like adjustable water pressure, heated seats, and self-cleaning nozzles, our bidets make every visit to the bathroom a better experience.</p><p><em>Discover comfort. Embrace cleanliness. Welcome to Bidet World.</em></p>",
+            "text_font": "body",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_line_height": 1.6,
+            "text_letter_spacing": 0,
+            "text_capitalize": false,
+            "secondary_color": false,
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "sketch-underline"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "Welcome to <strong>Bidet World</strong>",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "Our Story",
+        "button_link": "shopify://pages/about-us",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "basic-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_k7cGW8": {
+          "type": "collection",
+          "settings": {
+            "collection": "non-electric-bidet-attachments",
+            "title": "Bidet Attachments",
+            "description": "Toilet compatible products",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "smart-bidet-seats",
+            "title": "Bidet Seats",
+            "description": "Easy install with amazing features",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection_7X8bJX": {
+          "type": "collection",
+          "settings": {
+            "collection": "dignity-lifts",
+            "image": "shopify://shop_images/BasicLiftAnimation-BlackSweater.gif",
+            "title": "Assisted Toilet Lifts",
+            "description": "Electric-assisted lift for safer toileting",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "bidet-toilets",
+            "title": "Bidet Toilets",
+            "description": "Standalone bidet toilets",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "bidet-handhelds",
+            "title": "Handheld Sprayers",
+            "description": "Multipurpose bidet sprayers",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "handheld-bidets",
+            "image": "shopify://shop_images/Untitled_design_22.png",
+            "title": "Travel Bidets",
+            "description": "Easy to use on the go",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection_mY47XF": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "",
+            "description": "Bidet related accessories",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_k7cGW8",
+        "collection-3",
+        "collection_7X8bJX",
+        "collection-2",
+        "collection-5",
+        "collection-4",
+        "collection_mY47XF"
+      ],
+      "settings": {
+        "card_style": "card",
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": true,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "<em>Product Collections</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#92aae6",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_XEXTKd": {
+          "type": "collection",
+          "settings": {
+            "collection": "non-electric-bidet-attachments",
+            "products": [],
+            "title": "Bidet Attachments"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "smart-bidet-seats",
+            "products": [],
+            "title": "Bidet Seats"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "bidet-toilets",
+            "products": [],
+            "title": "Bidet Toilets"
+          }
+        },
+        "collection_6Q8Ltf": {
+          "type": "collection",
+          "settings": {
+            "collection": "dignity-lifts",
+            "products": [],
+            "title": "Assisted Toilet Lifts"
+          }
+        },
+        "collection_pqffpp": {
+          "type": "collection",
+          "settings": {
+            "collection": "handheld-bidets-1",
+            "products": [],
+            "title": "Handheld Bidets"
+          }
+        },
+        "collection_j3Lrwn": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "products": [],
+            "title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XEXTKd",
+        "collection-1",
+        "collection-2",
+        "collection_6Q8Ltf",
+        "collection_pqffpp",
+        "collection_j3Lrwn"
+      ],
+      "settings": {
+        "product_limit": 12,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "<em>Best Sellers</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#92aae6",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "iwidth": "custom",
+            "icon_width": 24,
+            "text": "{{ section.settings.product.vendor }}",
+            "text_size": "text-base"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-sm",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-sm"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up!",
+            "subheading": "Sale end in:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "inventory_threshold": 15,
+            "show_inventory_transfer": true,
+            "show_inventory_quantity": "low",
+            "color_scheme": "accent-1"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_price": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share",
+            "show_help_desk": true,
+            "help_label": "Need Help?",
+            "help_page": "support",
+            "help_page_external": false
+          }
+        },
+        "read_more": {
+          "type": "read_more",
+          "settings": {}
+        },
+        "spinning_text": {
+          "type": "spinning_text",
+          "settings": {
+            "text": "Featured product"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "title",
+        "description",
+        "countdown",
+        "variant_picker",
+        "inventory",
+        "buy_buttons",
+        "pickup_availability",
+        "share",
+        "read_more",
+        "spinning_text"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "nb-r1063-rw",
+        "enable_sticky_info": false,
+        "media_size": 35,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "below",
+        "image_ratio": "portrait",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "portrait",
+        "mobile_thumbnail": true,
+        "padding_top": 120,
+        "padding_bottom": 56,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "video-with-text-overlay": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Redefine Clean with the Perfect Bidet Sprayer",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience comfort and control with a modern design that makes hygiene effortless, sustainable, and refreshing every day.</p>",
+            "text_font": "heading",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_line_height": 1.6,
+            "text_letter_spacing": 0,
+            "text_capitalize": false,
+            "secondary_color": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/bidet-handhelds",
+            "button_style": "primary",
+            "button_size": "sm",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/vecteezy_asian-woman-s-hand-using-a-water-sprayer-to-clean-the-toilet_52015656.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "550px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "rich_text_LzTxgi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UFxRNj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Bidets",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_NCmQJM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take a look at our bidet brands list and comparisons to help you find the right bidet for your needs. </p>",
+            "text_font": "body",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_line_height": 1.6,
+            "text_letter_spacing": 0,
+            "text_capitalize": false,
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_JGBPKP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Brands",
+            "button_link": "shopify://pages/brands",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_UFxRNj",
+        "text_NCmQJM",
+        "button_JGBPKP"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 28,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "scrolling-text-2": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cropped-NOVA-Logo-Dark-300x151.png",
+            "height": 60,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/blooming-bidet-removebg-preview.png",
+            "height": 60,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        },
+        "image-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/clean-sense-bidet-logo.png",
+            "height": 60,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cascade-logo_1896x630_94467852-b153-4a7b-84cd-6bb77882c49f.webp",
+            "height": 60,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        },
+        "image-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GalaxyBidetLogo-3500x1500_1470x630_3526c931-b5a1-4868-a55e-ba6bb71573a8.webp",
+            "height": 60,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/download.png",
+            "height": 116,
+            "link": "",
+            "accessibility_info": "",
+            "external": false
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-3",
+        "image-6",
+        "image-4",
+        "image-7",
+        "image-2"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 8,
+        "grid_horizontal": 130,
+        "enable_twin": true,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "blog_posts_collage_MxEkP6": {
+      "type": "blog-posts-collage",
+      "settings": {
+        "blog": "news",
+        "post_limit": 4,
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_tags": true,
+        "show_date": true,
+        "show_comments": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "heading": "Bidet World Blogs",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Discover our library of in-depth bidet guides and articles, where we break down cost-saving strategies, eco-friendly benefits, and expert tips to transform your bathroom routine into a sustainable, efficient, and hygienic oasis.</p>",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "rich-text",
+    "collection-list",
+    "featured-collections",
+    "featured-product",
+    "video-with-text-overlay",
+    "rich_text_LzTxgi",
+    "scrolling-text-2",
+    "blog_posts_collage_MxEkP6"
+  ]
+}

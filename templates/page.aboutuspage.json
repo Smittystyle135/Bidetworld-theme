@@ -1,0 +1,616 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font": "body",
+            "text_size": "subtext-lg",
+            "text_max_size": 32,
+            "secondary_color": false,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to BidetWorld",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "transparent_header": true,
+        "image": "shopify://shop_images/close-up-young-colleagues-having-meeting_1.jpg",
+        "image_height": "750px",
+        "content_width": "large",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "images-with-text": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our <em>Journey</em>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "basic-underline"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to <strong>BidetWorld</strong>, where cleanliness, comfort, and care come first. Founded with a mission to revolutionize hygiene, we specialize in high-quality bidet products and professional installation services that cater to every lifestyle.</p><p>At BidetWorld, we believe that everyone deserves a touch of luxury in their daily routine. Our team is dedicated to helping you transform your bathroom into a modern oasis of cleanliness and convenience. With a focus on sustainability and innovation, we offer a wide range of bidet solutions designed to save water, reduce waste, and enhance your personal hygiene experience.</p><p>Whether you’re new to bidets or a seasoned enthusiast, our knowledgeable staff is here to guide you through every step—from choosing the perfect product to ensuring seamless installation. We take pride in delivering exceptional customer service, backed by expert advice and a passion for making your life more comfortable.</p><p>Explore our carefully curated collection of bidets, accessories, and bathroom essentials. At BidetWorld, we’re not just about selling products—we’re about creating a cleaner, more sustainable world for everyone.<br/><em><strong>Clean. Simple. Elevated.</strong></em></p>",
+            "text_font": "body",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "secondary_color": false,
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "squiggle-underline"
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Our History",
+            "button_link": "",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/BloomingBidet-NB-R1063-lid-open-angle-view-480x696-low-res-wh_41b7ff4b-2f66-4f22-bb23-d6778ab0187c.jpg",
+        "image_2": "shopify://shop_images/Remove_background_project_1_1c77a842-d825-4006-930b-5bdf59c624de.png",
+        "image_ratio": "portrait",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#92aae6",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 120,
+        "padding_bottom": 52,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": true
+      }
+    },
+    "portfolio": {
+      "type": "portfolio",
+      "blocks": {
+        "profile-1": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Remove_background_project_1_1c77a842-d825-4006-930b-5bdf59c624de.png",
+            "heading": "Nova : Luxury & Innovation Redefined",
+            "text": "<p>Nova bidets represent the pinnacle of modern hygiene, blending sleek design with unparalleled functionality. Engineered for those who appreciate the finer things in life, Nova bidet seats feature advanced sterilization technologies, unlimited warm water, and luxury conveniences such as auto-opening lids and auto-flush capabilities.</p><p>Every detail of Nova bidets is thoughtfully crafted to enhance your daily routine and elevate your bathroom experience. Built with durable, high-quality materials, Nova products provide a seamless combination of style, comfort, and cutting-edge technology.</p><p><strong>Features include:</strong></p><ul><li>Sterilization systems for maximum cleanliness.</li><li>Sleek profiles that complement any bathroom decor.</li><li>Unlimited warm water for uninterrupted comfort.</li><li>Luxury features like automated lid opening and flushing.</li></ul><p>Upgrade to Nova and experience the gold standard in hygiene and design.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        },
+        "profile-2": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/BloomingBidet-NB-R1063-lid-part-open-angle-view-480x572-trans_eff4436b-7ffa-45be-8b0a-7b0871e312d9.png",
+            "heading": "Blooming : Balance Style & Performance",
+            "text": "<p>Blooming bidets offer an exceptional combination of mid-range affordability and premium features, providing an elevated bathroom experience for discerning customers. With thoughtful design and advanced functionality, Blooming products are ideal for those seeking reliability and style without exceeding their budget.</p><p>Each Blooming bidet seat is equipped with features that prioritize user comfort and convenience, such as unlimited warm water, user-friendly controls, and sleek aesthetics that enhance any bathroom decor. Blooming products are built to last, delivering superior quality and performance with every use.</p><p><strong>Features of Blooming bidets include:</strong></p><ul><li>Unlimited warm water for consistent comfort.</li><li>Stylish and modern designs to suit any home.</li><li>User-friendly controls for a hassle-free experience.</li><li>A trusted choice for mid-range durability and performance.</li></ul><p>Discover the balance of elegance and functionality with Blooming bidets, where value meets superior quality.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        },
+        "profile-3": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Clean-Sense-1500R-L3QO2-1x1sm.jpg",
+            "heading": "CleanSense: Affordable, Functionality",
+            "text": "<p>CleanSense bidets are the perfect choice for those seeking exceptional features at a budget-friendly price. Designed to make advanced hygiene accessible, CleanSense products deliver dependable performance with features typically found in higher-priced models. Whether you are new to bidets or upgrading your bathroom, CleanSense offers a perfect balance of functionality and value.</p><p>Crafted with ease of use in mind, CleanSense bidet seats include features such as unlimited warm water, enema wash functionality, and straightforward controls. Their affordability makes them ideal for individuals and families seeking comfort without compromising on quality.</p><p><strong>Key benefits of CleanSense bidets:</strong></p><ul><li>Unlimited warm water for comfort and convenience.</li><li>Enema wash function for enhanced hygiene.</li><li>Affordable pricing without sacrificing essential features.</li><li>Easy installation and intuitive design.</li></ul><p>CleanSense combines innovation with value, making it the smart choice for your home.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "profile-1",
+        "profile-2",
+        "profile-3"
+      ],
+      "settings": {
+        "columns": 3,
+        "carousel_on_desktop": true,
+        "layout": "default",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Discover the Ultimate in <em>Comfort and Cleanliness</em> with BidetWorld",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-left justify-start",
+        "heading_tag": "h2",
+        "subheading": "Elevate Your Hygiene Experience with BidetWorld",
+        "description": "<p>At BidetWorld, we are committed to bringing you the finest in bidet technology, combining luxury, innovation, and affordability. Our curated selection of bidet seats is designed to enhance your daily routine, providing unparalleled comfort and hygiene.</p><p><strong>Featured Product: NOVA Bidet Seats</strong></p><p>Experience the pinnacle of modern bathroom luxury with NOVA's range of bidet seats. The <strong>Ultra-NOVA Bidet Seat</strong> boasts a sleek, ultra-thin design, making it one of the slimmest on the market. Crafted from high-quality anion-type nano antibacterial polypropylene, it ensures durability and hygiene. Features include an auto-opening lid, adjustable stainless steel wand, UV sterilization, and a soothing warm air dryer, all controlled via a stylish, intuitive side control panel. </p><p></p><p>For those seeking an eco-friendly option, the <strong>Eco-NOVA Bidet Seat</strong> offers a low-profile design with advanced features such as a tankless water heating system for endless warm water, UV sterilization, and a powerful warm air dryer. Its energy-efficient design ensures consistent performance while conserving resources. </p><p></p><p><strong>Special Promotion: Save on Blooming and Clean Sense Bidet Seats</strong></p><p>Enhance your bathroom experience with our exclusive sale on Blooming and Clean Sense bidet seats. Enjoy up to 15% off on select models, bringing luxury and advanced features within reach. The <strong>Blooming NB-R1063 Bidet Seat</strong> offers an energy-efficient on-demand water heating system, intuitive remote control, heated seat, and a unique LED nightlight that creates a gentle glow within the toilet bowl. </p><p></p><p>The <strong>Clean Sense DIB-1500R Bidet Toilet Seat</strong> provides a comprehensive cleansing experience with features like adjustable water pressure and temperature, a warm air dryer, and a user-friendly remote control. Its sleek design and advanced functionality make it a popular choice among our customers. </p><p></p><p>Don't miss this opportunity to upgrade your bathroom with top-of-the-line bidet seats at unbeatable prices. Visit our website or contact our customer service team to learn more about these products and take advantage of our limited-time offers.</p><p><em>Experience the BidetWorld difference—where comfort meets cleanliness.</em></p>",
+        "button_label": "Shop All",
+        "button_link": "shopify://collections/all-bidets",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#92aae6",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Free shipping and returns</strong>",
+            "text_size": 76,
+            "text_font": "body",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "direction": "left",
+        "speed": 10,
+        "grid_horizontal": 65,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 84,
+        "padding_bottom": 120,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "timeline": {
+      "type": "timeline",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "subheading": "2015",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "subheading": "2017",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "subheading": "2018",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "subheading": "2019",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-5": {
+          "type": "content",
+          "settings": {
+            "subheading": "2021",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-6": {
+          "type": "content",
+          "settings": {
+            "subheading": "2022",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-7": {
+          "type": "content",
+          "settings": {
+            "subheading": "2023",
+            "heading": "Image with text",
+            "heading_tag": "h2",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4",
+        "content-5",
+        "content-6",
+        "content-7"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "wide",
+        "heading": "Our History",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "rgba(0,0,0,0)",
+        "color_button_background": "rgba(0,0,0,0)",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "rich_text_D86EgX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KKwYKe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bidets from Top Brands",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_nJAmeT": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font": "body",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_fT7qa4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Brand Info",
+            "button_link": "shopify://pages/brands",
+            "button_style": "primary",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_KKwYKe",
+        "text_nJAmeT",
+        "button_fT7qa4"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 28,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "scrolling_text_qjpKhU": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image_VWGyWa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cropped-NOVA-Logo-Dark-300x151.png",
+            "height": 80
+          }
+        },
+        "image_TKiihJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/blooming-bidet-removebg-preview.png",
+            "height": 80
+          }
+        },
+        "image_kAWYCe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cascade-logo_1896x630_94467852-b153-4a7b-84cd-6bb77882c49f.webp",
+            "height": 80
+          }
+        },
+        "image_BrkiLj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/clean-sense-bidet-logo.png",
+            "height": 80
+          }
+        },
+        "image_JcChKk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GalaxyBidetLogo-3500x1500_1470x630_3526c931-b5a1-4868-a55e-ba6bb71573a8.webp",
+            "height": 80
+          }
+        },
+        "image_E74bmB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/download.png",
+            "height": 80
+          }
+        }
+      },
+      "block_order": [
+        "image_VWGyWa",
+        "image_TKiihJ",
+        "image_kAWYCe",
+        "image_BrkiLj",
+        "image_JcChKk",
+        "image_E74bmB"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": true,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text-overlay",
+    "images-with-text",
+    "portfolio",
+    "scrolling-text",
+    "testimonials",
+    "timeline",
+    "rich_text_D86EgX",
+    "scrolling_text_qjpKhU"
+  ]
+}

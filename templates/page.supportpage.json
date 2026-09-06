@@ -1,0 +1,198 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_tWKcTQ": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".contact-button {display: inline-flex; align-items: center; justify-content: center; color: #fff; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-size: 15px; font-weight: bold; transition: 0.3s; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}",
+        ".call-us {background: linear-gradient(45deg, #2196f3, #0d47a1);}",
+        ".email-us {background: linear-gradient(45deg, #d93025, #b1271b);}"
+      ],
+      "settings": {
+        "liquid": "{% comment %}\n  Combined \"Call Us Now\" and \"Email Us Now\" buttons with icons.\n{% endcomment %}\n<div class=\"contact-buttons\">\n  <a href=\"tel:{{ settings.store_phone | default: '16163330637' }}\" class=\"contact-button call-us\">\n    <i class=\"fa {{ settings.call_us_icon | default: 'fa-phone' }}\"></i> {{ settings.call_us_text | default: 'Call Us Now' }}\n  </a>\n  <a href=\"mailto:{{ settings.store_email | default: 'bidetworld@support.com' }}\" class=\"contact-button email-us\">\n    <i class=\"fa {{ settings.email_us_icon | default: 'fa-envelope' }}\"></i> {{ settings.email_us_text | default: 'Email Us Now' }}\n  </a>\n</div>",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "rich_text_8Rzmqf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fT8XNB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BidetWorld Support</strong>",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_bB9AbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Our support team is here to assist with any questions or concerns. You can reach us through the following channels:</p><p>Available Monday through Friday, 9:00 AM–5:00 PM (EST).</p><p><strong>Email</strong>: support@bidetworld.com</p><p><strong>Phone</strong>: +1 (616) 333-0637</p>",
+            "text_font": "body",
+            "text_size": "subtext-lg",
+            "text_max_size": 32,
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fT8XNB",
+        "text_bB9AbU"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 44,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "contact_form_zWziyj": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 68,
+        "padding_bottom": 20,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "rich_text_w93XVG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_w7Y4XB": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>About BidetWorld</strong></h3><p>BidetWorld is a premium provider of bidet products and accessories. We offer a curated selection of high-quality bidets tailored to meet every customer’s needs. From budget-friendly options to luxurious, feature-rich models, our products enhance hygiene and comfort for every bathroom.</p><p>What makes BidetWorld unique is our unwavering commitment to quality, customer-focused service, and comprehensive support. Our customers enjoy a seamless journey, from purchase to installation and beyond.</p><h3><strong>Placing an Order</strong></h3><p>Placing an order is simple. Browse our website to explore our extensive range of products. Add your desired items to the cart, proceed to checkout, and provide your shipping and payment details to finalize your order.</p><p>Orders can be modified or canceled within an hour of placement. After this period, the order may already be processed for shipping. Contact our support team immediately for assistance with changes.</p><p>We accept major credit/debit cards, PayPal, and other regional payment options for your convenience.</p><h3><strong>Shipping & Delivery</strong></h3><p>BidetWorld offers both standard and expedited shipping options. Standard shipping typically takes 5–7 business days, while expedited shipping delivers within 2–3 business days. Orders are processed and shipped within 48 hours to ensure timely delivery.</p><p>We ship across the United States, including Alaska and Hawaii, with international shipping available upon request. You’ll receive a tracking number via email once your order ships, allowing you to monitor its status.</p><p>If your package is delayed or lost, verify your shipping address and contact our support team for assistance. We’re here to ensure your order arrives safely.</p><h3><strong>Returns & Refunds</strong></h3><p>Unopened products can be returned in their original packaging within 30 days of delivery. Installed or used products are non-returnable unless a valid warranty issue arises. Please note that shipping costs are non-refundable, and a restocking fee may apply.</p><p>To initiate a return, contact our support team with your order number and reason for return. You’ll receive a Return Merchandise Authorization (RMA) and shipping instructions. Refunds are processed within 7–10 business days after inspection and approval.</p><h3><strong>Warranties & Repairs</strong></h3><p>All BidetWorld products come with manufacturer-backed warranties. Warranty durations vary depending on the product and brand, generally ranging from one to three years.</p><p>To file a warranty claim, contact our support team with proof of purchase and a description of the issue. Providing photos or videos can help expedite the process. We’ll coordinate repairs or replacements on your behalf.</p><h3><strong>Product Support</strong></h3><p>Choosing the right bidet depends on your preferences and bathroom setup. Consider features such as warm water, remote controls, and air dryers, as well as whether your toilet is round or elongated. Our team is happy to assist with personalized recommendations.</p><p>While we don’t offer in-house installation, most of our bidets are designed for easy DIY installation. If professional installation is preferred, we recommend contacting a licensed plumber.</p><p>User manuals are available for download on each product’s page. For maintenance, clean the exterior with mild soap and water, follow the manual for nozzle cleaning, and avoid abrasive cleaners.</p><h3><strong>Promotions & Rewards</strong></h3><p>BidetWorld frequently offers discounts and promotions. Sign up for our newsletter to receive exclusive deals, early access to sales, and updates on new products.</p><h3><strong>Troubleshooting</strong></h3><p>If your bidet isn’t working, check the user manual for basic troubleshooting steps. Ensure it’s properly connected to water and power. Persistent issues can be addressed by our support team.</p><p>Leaking bidets may have loose connections or damaged seals. Confirm all connections are secure, inspect components, and reach out for further assistance.</p><p>For non-responsive remotes, replace the batteries and ensure they’re paired correctly with the bidet. Detailed instructions can be found in the manual, or our team can provide additional help.</p>",
+            "text_font": "body",
+            "text_size": "subtext-lg",
+            "text_max_size": 32,
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text_w7Y4XB"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 24,
+        "padding_bottom": 40,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 48,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_tWKcTQ",
+    "rich_text_8Rzmqf",
+    "contact_form_zWziyj",
+    "rich_text_w93XVG",
+    "main-page"
+  ]
+}
