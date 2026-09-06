@@ -323,6 +323,15 @@ Things that will bite us if forgotten.
   with `shopify theme check` before pushing.
 - **bidetworld.com is registered at GoDaddy (not Namecheap) and expired once
   (Sept 2026).** Auto-renew must be on. Renewal date: TODO, Jeff to confirm.
+- **Jeff's PC: Windows PowerShell blocks npm and shopify by default** ("running
+  scripts is disabled on this system"). One-time fix, run in PowerShell:
+  `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` and answer Y.
+- **Jeff's PC already has Shopify CLI installed** (`shopify.ps1` exists in
+  `AppData\Roaming\npm`). Skip the npm install step.
+- **Jeff's local clone lives at `C:\Users\jeffo\Bidetworld-theme`** and can be stale.
+  Run `git fetch origin` before `git checkout <branch>` or the branch is "not found".
+- **`shopify theme pull` with no `--store` flag prompts for the store.** Use that
+  instead of asking Jeff to type the myshopify address.
 - **Quick health check for the live site** (run before any theme work):
   `curl -sI -A "Mozilla/5.0" https://bidetworld.com/ | grep -i shopify` should print
   Shopify headers. If it prints nothing and the body is a `/lander` redirect, the
