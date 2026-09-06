@@ -230,7 +230,8 @@ for content and extras, GitHub for code).
 4. Export products CSV into `data/`.
 5. Create Vercel and Supabase projects and connect Vercel to this repo.
 
-**If the domain really is misrouted**, reconnect bidetworld.com to Shopify. Checklist:
+**Domain (Jeff is renewing now):** after renewal, confirm DNS still points at Shopify.
+Checklist:
 1. Confirm the domain has not expired (registrar dashboard). Renew if it has.
 2. In Shopify admin: Settings > Domains. Confirm bidetworld.com is listed and set as
    primary. If missing, add it.
@@ -289,11 +290,12 @@ differently than expected. Newest first.
   blog and social post is currently sending traffic to a parking page.
   `bidetworld.myshopify.com` returns 404, so the store's myshopify handle is something
   else. Jeff needs to supply it.
-- **2026-09-06: Jeff reports bidetworld.com is live for him.** Domain was bought at
-  GoDaddy. From this environment it still resolves to GoDaddy parking IPs. Unresolved
-  whether that is a real DNS problem (mixed A records, partial propagation) or an
-  artifact of this environment's resolver. Do not call it an outage again until Jeff
-  confirms with an outside DNS check (dnschecker.org) or a phone on cellular data.
+- **2026-09-06: Root cause confirmed by Jeff: the bidetworld.com domain expired at
+  GoDaddy.** GoDaddy parked it, which is why the world saw the parking page while the
+  Shopify store itself stayed live. Jeff is renewing. **Prevention:** turn on
+  auto-renew for bidetworld.com at GoDaddy and put the renewal date in §13. After
+  renewal, verify the A record is `23.227.38.65` and CNAME `www` is
+  `shops.myshopify.com`, since GoDaddy sometimes resets DNS on expired domains.
 - **2026-09-06: This environment cannot bypass its proxy.** Every outbound connection
   is transparently intercepted by an egress gateway that resolves hostnames itself
   (`CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true`). `curl --noproxy` and `--resolve` look like
@@ -319,6 +321,8 @@ Things that will bite us if forgotten.
 - Liquid `{% include %}` is deprecated. Use `{% render %}`.
 - A JSON template with invalid JSON takes down that page type entirely. Validate
   with `shopify theme check` before pushing.
+- **bidetworld.com is registered at GoDaddy (not Namecheap) and expired once
+  (Sept 2026).** Auto-renew must be on. Renewal date: TODO, Jeff to confirm.
 - **Quick health check for the live site** (run before any theme work):
   `curl -sI -A "Mozilla/5.0" https://bidetworld.com/ | grep -i shopify` should print
   Shopify headers. If it prints nothing and the body is a `/lander` redirect, the
