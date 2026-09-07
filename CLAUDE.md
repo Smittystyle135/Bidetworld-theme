@@ -61,7 +61,7 @@ methodical. These rules are not optional:
 | Working branch | `claude/claude-md-knowledge-base-wf8xrn` |
 | Store platform | Shopify, Basic plan |
 | Store address | `b5c390-92.myshopify.com` (admin: `admin.shopify.com/store/b5c390-92`) |
-| Build step | None expected. Shopify themes ship raw Liquid, CSS, and JS. |
+| Build step | Theme: none. `storefront/`: Next.js app (`npm run build`), deployed by Vercel with Root Directory = `storefront`. |
 
 ### Current state (2026-09-06, evening)
 
@@ -287,26 +287,24 @@ Many are likely unused. Check which pages actually use them before deleting any.
 
 ## 9. Current Focus
 
-**Last session (2026-09-06):** Created this CLAUDE.md knowledge base. Audit of
-bidetworld.com from this environment showed a GoDaddy parking page, but Jeff says the
-site is live for him. See §12. Jeff's new goal: **clone the Shopify store into a custom
-headless storefront** (Next.js on Vercel, Shopify Storefront API for commerce, Supabase
-for content and extras, GitHub for code).
+**Last session (2026-09-07):** Built the headless storefront v1 in `storefront/`
+(Next.js 16, Tailwind 4, Storefront API). It has: home, collections with sort, product
+page with variants + add to cart, cart drawer + cart page → Shopify checkout, search,
+Shopify pages, blog list + article (same `/blogs/news/...` URLs as Shopify), sitemap,
+robots, JSON-LD, newsletter signup (Storefront `customerCreate`), the NEWCUSTOMER
+popup, and a **rebuilt Bidet Quiz at `/quiz`** (replaces the unpaid Octane AI app).
+Nav is read from the Shopify `main-menu`. `npm run build`, `lint`, `typecheck` all
+pass. A mock Storefront API (`storefront/scripts/mock-shopify.mjs`, fed by `data/`)
+lets us develop and screenshot without the live store. Full docs: `storefront/README.md`.
 
-**Done 2026-09-06:** theme pulled and pushed, store address recorded, catalog snapshot
-in `data/`, §8 fully filled in, domain renewed at GoDaddy.
+**Next task (Jeff, ~15 minutes):**
+1. Create the Storefront API token (steps in `storefront/README.md` §1).
+2. Create a Vercel project from this repo, **Root Directory = `storefront`**, add the
+   three env vars, deploy, and send Claude the preview URL.
 
-**Next task:** set up the services for the headless clone. Jeff needs to:
-1. Create a read-only Storefront API token (Shopify admin > Settings > Apps and sales
-   channels > Develop apps > Create app "Headless storefront" > Storefront API scopes
-   for products, collections, content, checkout > Install > copy token).
-2. Create a Vercel account, import this GitHub repo, add env var
-   `SHOPIFY_STOREFRONT_TOKEN` and `SHOPIFY_STORE_DOMAIN=b5c390-92.myshopify.com`.
-3. Create a Supabase project, add its URL and anon key as Vercel env vars.
-4. Confirm bidetworld.com DNS points at Shopify again (see checklist below).
-
-**Then Claude builds:** a Next.js app in a `storefront/` folder of this repo that
-reproduces the Concept look from §8 using the Storefront API, deployed by Vercel.
+**Then Claude:** review the preview against the live store, fix anything off, add the
+real logo (`storefront/public/logo.png`) and hero media, then plan the DNS cutover
+(README §3). Supabase is not needed for v1; add it only when a feature needs it.
 
 **Domain (Jeff is renewing now):** after renewal, confirm DNS still points at Shopify.
 Checklist:
@@ -342,6 +340,11 @@ Why we chose what we chose, so we do not re-argue it.
 | 2026-09-06 | Push to unpublished themes only, never directly to live | Protects revenue. Jeff publishes from the Shopify admin after review. |
 | 2026-09-06 | Headless clone keeps Shopify as the commerce backend (Storefront API), Next.js on Vercel as the frontend, Supabase for content and extras | Rebuilding checkout, payments, and tax is months of work and legal risk for no extra revenue. |
 | 2026-09-06 | Clone lives in a `storefront/` folder of this same repo | One repo, one CLAUDE.md, one place to look. Vercel can deploy a subfolder. |
+| 2026-09-07 | Storefront stack: Next.js 16 App Router + Tailwind 4, no UI library, no Hydrogen | Most widely known stack, deploys anywhere (Vercel/Netlify/Cloudflare), and the Storefront API is plain GraphQL over fetch. |
+| 2026-09-07 | Quiz logic lives in code (`storefront/src/lib/quiz.ts`), not a paid app | Octane AI is no longer paid for. Code is free, fully ours, and the recommendation rules are readable in one file. |
+| 2026-09-07 | Blog routes keep Shopify's URL shape (`/blogs/news/<handle>`) | Daily automated posts are the SEO engine; changing URLs would lose rankings. |
+| 2026-09-07 | Cart uses Storefront Cart API with the cart id in an httpOnly cookie; checkout is Shopify hosted | Shopify keeps handling payments, tax, shipping and discounts. Nothing to re-certify. |
+| 2026-09-07 | Newsletter signup = Storefront `customerCreate` with marketing consent | Works with zero extra services; can be swapped for Klaviyo's API later without touching the UI. |
 
 ---
 
@@ -350,6 +353,18 @@ Why we chose what we chose, so we do not re-argue it.
 Add a dated entry every time something surprises us, breaks, or turns out to work
 differently than expected. Newest first.
 
+- **2026-09-07: Tailwind 4 `@apply` cannot reference a class defined in the same
+  `@layer components` block** (build error "Cannot apply unknown utility class"). Write
+  the utilities out instead of composing custom classes.
+- **2026-09-07: Next 16's React Compiler lint (`react-hooks/set-state-in-effect`) is an
+  error, not a warning.** Derive state instead of syncing it in `useEffect`, or reset a
+  component with a `key`.
+- **2026-09-07: `cdn.shopify.com` and `b5c390-92.myshopify.com` are blocked from this
+  sandbox, but `fonts.googleapis.com` and npm are allowed.** So `next/font/google` works,
+  but product images and live Storefront API calls do not; use the mock
+  (`npm run mock` + `npm run dev:mock`) for local verification.
+- **2026-09-07: The real logo is a Shopify Files asset (`shop_images/`), not in the
+  theme repo.** Jeff must export it from Shopify admin → Content → Files.
 - **2026-09-06: bidetworld.com is down, serving a GoDaddy parking page.** Evidence:
   root URL returns a 114-byte HTML page that JS-redirects to `/lander`; `/lander` is
   the GoDaddy parking app (`img1.wsimg.com/parking-lander`, `_trfd ap:"parking"`);
@@ -393,6 +408,16 @@ differently than expected. Newest first.
 
 Things that will bite us if forgotten.
 
+- **Storefront collection handles are not what the titles suggest.** Bidet Seats =
+  `smart-bidet-seats`, Attachments = `non-electric-bidet-attachments`, Toilet lifts =
+  `dignity-lifts`, Sprayers = `bidet-handhelds`, **Travel Bidets = `handheld-bidets`**,
+  Toilets = `bidet-toilets`, All Bidets = `all-bidets-1`. They are hardcoded in
+  `storefront/src/lib/config.ts` and `storefront/src/lib/quiz.ts`; update both if a
+  collection is renamed in Shopify.
+- **Vercel must be set to Root Directory `storefront`.** With the default root it will
+  try to build the Liquid theme and fail.
+- **Never commit `storefront/.env.local`.** The Storefront token is public-safe by
+  design, but keep it out of git anyway; `storefront/.gitignore` already ignores `.env*`.
 - Shopify Theme Editor writes directly to `config/settings_data.json` and
   `templates/*.json` on the live theme. If Jeff edits in the admin while we work in
   git, the two drift. Always `shopify theme pull` before starting theme-setting work.

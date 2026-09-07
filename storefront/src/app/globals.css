@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #171717;
+  --color-ink-soft: #1f1f1f;
+  --color-paper: #ffffff;
+  --color-paper-soft: #fafafa;
+  --color-peach: #ffddbf;
+  --color-mint: #a8e8e2;
+  --color-sale: #e11d48;
+  --color-star: #f59e0b;
+  --color-focus: #0b61cd;
+  --color-success: #4d7c0f;
+  --color-success-bg: #f7fee7;
+  --color-error: #be123c;
+  --color-error-bg: #fff1f2;
+  --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  font-weight: 700;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1900px] px-4 sm:px-6 lg:px-10;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 px-6 py-3 text-base font-medium leading-none transition-colors duration-200 disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-sm {
+    @apply px-4 py-2 text-sm;
+  }
+  .btn-lg {
+    @apply px-8 py-4;
+  }
+  .btn-primary {
+    @apply border-ink bg-ink text-white hover:bg-white hover:text-ink;
+  }
+  .btn-secondary {
+    @apply border-ink bg-white text-ink hover:bg-ink hover:text-white;
+  }
+  .btn-light {
+    @apply border-white bg-white text-ink hover:bg-transparent hover:text-white;
+  }
+  .btn-ghost-light {
+    @apply border-white/60 bg-transparent text-white hover:bg-white hover:text-ink;
+  }
+
+  .highlight {
+    background: linear-gradient(transparent 55%, var(--color-peach) 55%);
+    padding: 0 0.15em;
+  }
+
+  .input {
+    @apply w-full rounded-full border-2 border-neutral-200 bg-white px-5 py-3 text-base text-ink placeholder:text-neutral-400 focus:border-ink focus:outline-none;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold leading-none;
+  }
+  .badge-sale {
+    @apply inline-flex items-center rounded-full bg-sale px-3 py-1 text-xs font-semibold leading-none text-white;
+  }
+  .badge-muted {
+    @apply inline-flex items-center rounded-full bg-neutral-200 px-3 py-1 text-xs font-semibold leading-none text-ink;
+  }
+
+  .rte {
+    @apply text-base leading-relaxed text-neutral-700;
+  }
+  .rte p,
+  .rte ul,
+  .rte ol,
+  .rte table,
+  .rte blockquote {
+    @apply my-4;
+  }
+  .rte h1,
+  .rte h2,
+  .rte h3,
+  .rte h4 {
+    @apply mb-3 mt-8 text-ink;
+  }
+  .rte h1 {
+    @apply text-3xl;
+  }
+  .rte h2 {
+    @apply text-2xl;
+  }
+  .rte h3 {
+    @apply text-xl;
+  }
+  .rte ul {
+    @apply list-disc pl-6;
+  }
+  .rte ol {
+    @apply list-decimal pl-6;
+  }
+  .rte li {
+    @apply my-1;
+  }
+  .rte a {
+    @apply text-ink underline underline-offset-2;
+  }
+  .rte strong {
+    @apply font-semibold text-ink;
+  }
+  .rte img {
+    @apply my-6 h-auto max-w-full rounded-2xl;
+  }
+  .rte table {
+    @apply w-full border-collapse text-sm;
+  }
+  .rte th,
+  .rte td {
+    @apply border border-neutral-200 px-3 py-2 text-left align-top;
+  }
+  .rte iframe {
+    @apply my-6 aspect-video w-full rounded-2xl;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.35s ease-out both;
+}
